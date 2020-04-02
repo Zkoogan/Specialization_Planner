@@ -1,0 +1,194 @@
+﻿
+    <Window x:Class="WpfApp5.MainWindow"
+        x:Name="Window"
+        xmlns:ribbon="clr-namespace:System.Windows.Controls.Ribbon;assembly=System.Windows.Controls.Ribbon"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="Specialization Manager" Height="450" Width="800" 
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <local:MainViewModel x:Key="tvm"/>
+        <local:InverseBooleanConverter x:Key="inv"/>
+        
+        <Style TargetType="ListView" x:Key="hasItems">
+            <Style.Triggers>
+                <Trigger Property="HasItems" Value="False">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                </Trigger>
+
+            </Style.Triggers>
+        </Style>
+        
+        <DataTemplate DataType="{x:Type local:SearchViewModel}">
+            <local:SearchControl/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type local:HomeViewModel}">
+            <local:HomeControl/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type local:ProfileViewModel}">
+            <local:ProfileControl/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type local:StatisticsViewModel}">
+            <local:StatisticsControl/>
+        </DataTemplate>
+
+        <Storyboard x:Key="Slider_menu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="stackPanel">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="90.702"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="stackPanel">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-0.54"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="Slider_menu_reverse">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="stackPanel">
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="stackPanel">
+                <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger SourceName="stackPanel" RoutedEvent="MouseEnter">
+            <BeginStoryboard Storyboard="{StaticResource Slider_menu}"/>
+        </EventTrigger>
+        <EventTrigger SourceName="stackPanel" RoutedEvent="MouseLeave">
+            <BeginStoryboard Storyboard="{StaticResource Slider_menu_reverse}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid Background="#FFF2F2F2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.7*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Banner -->
+        <Grid Grid.ColumnSpan="4" Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.ColumnSpan="1" Grid.Column="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="logo.jpg"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="Specialiseringsplaneraren" Grid.Column="1" Grid.ColumnSpan="2" FontSize="36" FontFamily="Impact"/>
+        </Grid>
+<!--
+        <TreeView Grid.Column="3" Grid.Row="1" VerticalAlignment="Top" Panel.ZIndex="3" Background="White">
+            <TreeViewItem Background="Transparent">
+                <TreeViewItem.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="8*"/>
+                            <ColumnDefinition Width="2*"/>
+
+                        </Grid.ColumnDefinitions>
+                        <materialDesign:PackIcon Kind="LibraryBooks" Grid.Column="1"/>
+                        <TextBlock Text="{Binding NumCourses, Source={StaticResource tvm}}" Grid.Column="0" />
+                    </Grid>
+                </TreeViewItem.Header>
+                <ItemsControl ItemsSource="{Binding Chosen, Source={StaticResource tvm}}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="5">
+                                <TextBlock Text="{Binding Kursnamn}" IsEnabled="False"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </TreeViewItem>
+        </TreeView> -->
+
+        <materialDesign:Badged
+          ToolBar.OverflowMode="AsNeeded"
+          Badge="{Binding NumCourses, Source={StaticResource tvm}}"
+          CornerRadius="5" Grid.Column="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,0">
+            <Button
+            ToolTip="Antal Kurser"
+            Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
+                <materialDesign:PackIcon
+              Kind="Bookshelf" Width="25" Height="25"/>
+            </Button>
+        </materialDesign:Badged>
+
+        <StackPanel Grid.Column="3" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Background="White" VerticalAlignment="Top" HorizontalAlignment="Center" Command="{Binding MinimizeCommand, Source={StaticResource tvm}}" CommandParameter="{Binding ElementName=Window}">
+                <materialDesign:PackIcon Kind="WindowMinimize" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+            <Button Background="White" VerticalAlignment="Top" HorizontalAlignment="Right" Command="{Binding CloseCommand, Source={StaticResource tvm}}" CommandParameter="{Binding ElementName=Window}">
+                <materialDesign:PackIcon Kind="WindowClose" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+
+        </StackPanel>
+
+        <!-- Slider Menu -->
+        <StackPanel x:Name="stackPanel" Grid.Row="1" Grid.RowSpan="5" Background="#FF0595D6" Width="120" HorizontalAlignment="Left" Margin="-90,0,0,0" RenderTransformOrigin="0.5,0.5">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+            <Button Command="{Binding NavigateHomeCommand, Source={StaticResource tvm}}" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center" Height="45">
+                <StackPanel Orientation="Horizontal" Margin="0,0,-14,0" >
+                    <Label Content="Startsida" FontFamily="Impact"/>
+                    <materialDesign:PackIcon Kind="Home" Width="25" Height="25" Margin="14,0,0,0"/>
+                </StackPanel>
+            </Button>
+            <StackPanel Height="1"/>
+            <Button Command="{Binding NavigateProfileCommand, Source={StaticResource tvm}}" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center" Height="45">
+                <StackPanel Orientation="Horizontal" Margin="0,0,-14,0">
+                    <Label Content="Profil" HorizontalContentAlignment="Left" Width="65" FontFamily="Impact"/>
+                    <materialDesign:PackIcon Kind="Person" Width="25" Height="25" Margin="10,0,0,0" RenderTransformOrigin="-0.08,0.56"/>
+                </StackPanel>
+            </Button>
+            <StackPanel Height="1"/>
+            <Button Command="{Binding NavigateSearchCommand, Source={StaticResource tvm}}" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center" Height="45">
+                <StackPanel Orientation="Horizontal" Margin="0,0,-14,0" >
+                    <Label Content="Sök" HorizontalContentAlignment="Left" Width="65" FontFamily="Impact"/>
+                    <materialDesign:PackIcon Kind="Search" Width="25" Height="25" Margin="10,0,0,0"/>
+                </StackPanel>
+            </Button>
+            <Button HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center" Height="45" Command="{Binding NavigateStatisticsCommand, Source={StaticResource tvm}}">
+                <StackPanel Orientation="Horizontal" Margin="0,0,-14,0">
+                    <Label Content="Mina val" HorizontalContentAlignment="Left" Width="65" FontFamily="Impact"/>
+                    <materialDesign:PackIcon Kind="ChartLine" Width="25" Height="25" Margin="10,0,0,0" RenderTransformOrigin="-0.08,0.56"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        <ContentControl Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" Grid.ColumnSpan="3" Content="{Binding selectedViewModel, Source={StaticResource tvm}}"></ContentControl>
+    </Grid>
+</Window>

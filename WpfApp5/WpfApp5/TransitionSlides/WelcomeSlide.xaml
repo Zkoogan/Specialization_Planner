@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="WpfApp5.TransitionSlides.WelcomeSlide"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             xmlns:local="clr-namespace:WpfApp5.TransitionSlides"
+             d:DesignHeight="300" d:DesignWidth="300"
+             >
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <local:WelcomeSlideViewModel x:Key="wsvm"/>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <materialDesign:ColorZone VerticalAlignment="Stretch" HorizontalAlignment="Stretch" VerticalContentAlignment="Stretch">
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center"
+              MaxWidth="600">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBlock HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="32"
+                       Style="{StaticResource MaterialDesignHeadline5TextBlock}"
+                       TextWrapping="Wrap" Text="{Binding WelcomeMessage, Source={StaticResource wsvm}}">
+
+            </TextBlock>
+
+            <Button Style="{DynamicResource MaterialDesignFloatingActionAccentButton}"
+                    Command="{x:Static materialDesign:Transitioner.MoveNextCommand}"
+                    HorizontalAlignment="Center"
+                    Grid.Row="1"
+                    >
+                <materialDesign:PackIcon Kind="StepForward" />
+            </Button>
+        </Grid>
+    </materialDesign:ColorZone>
+</UserControl>

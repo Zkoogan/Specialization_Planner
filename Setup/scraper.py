@@ -57,7 +57,15 @@ def scrape():
         specializations.append(h.text)
     
     tables = soup.find_all('table')
-
+    
+    temp = []
+    for s in specializations:
+        if "Spec" in s: 
+            t = s.split('-')
+            s = t[len(t) - 1].strip()
+        temp.append(s)
+    specializations = temp
+    
     #removes file if it exists
     if(os.path.exists("courses.txt")): 
         os.remove('courses.txt')
@@ -109,4 +117,3 @@ def scrape():
 
 if __name__ == '__main__':
     scrape()
-    create_database()

@@ -1,0 +1,1374 @@
+
+EDAA60;3;G1;Datorer och datoranvändning;Datateknik är ett brett område där många tekniker och
+verktyg används. Kursens syfte är att studenterna skall få möta
+en del av dessa, särskilt sådana som är till nytta under den
+fortsatta utbildningen på Datateknikprogrammet.;roger.henriksson@cs.lth.se;1/;Årskurs 1 (obligatoriska kurser);
+FMAA05;15;G1;Endimensionell analys;Kursens syfte är att ge en grundläggande introduktion till den
+endimensionella analysen. Särskild vikt läggs på den roll denna
+spelar i tillämpningar inom teknikämnen av olika slag, med avsikt
+att ge den blivande civilingenjören en god grund för vidare
+studier i såväl matematik som andra ämnen. Syftet är vidare
+att utveckla studenternas förmåga att lösa problem, att
+tillgodogöra sig matematisk text och att kommunicera
+matematik.;Studierektor@math.lth.se;1/2/;Årskurs 1 (obligatoriska kurser);
+EDAA45;7,5;G1;Programmering, grundkurs;Studenterna ska lära sig att skriva små och medelstora
+datorprogram och få grundläggande insikter i imperativ
+programmering, objektorientering och funktionsprogrammering.;bjorn.regnell@cs.lth.se;1/2/;Årskurs 1 (obligatoriska kurser);
+EXTA65;4,5;G1;Kognition;Kursen syftar till att ge grundläggande kunskaper om människan
+som kunskaps- och informationsvarelse samt till att ge en inblick i
+kognitionsvetenskap som disciplin.;annika.wallin@lucs.lu.se;2/;Årskurs 1 (obligatoriska kurser);
+FAFA60;5;G1;Fotonik;Syftet med kursen är att ge grundläggande kunskaper i fotonik
+inkluderande optik och signalöverföring med ljus och
+radiovågor. Förståelse inom dessa områden är central för
+begreppsbildningen inom aktuella teknikområden,
+t.ex. datakommunikation. Kursen ska också ge träning i
+problemlösning, modelltänkande, experimentellt arbete samt
+skriftlig kommunikation.;adam.kinos@fysik.lth.se;3/;Årskurs 1 (obligatoriska kurser);
+EDAA01;7,5;G1;Programmeringsteknik - fördjupningskurs;För att kunna konstruera programkomponenter som är
+förändringsbara, återanvändbara och resurssnåla krävs goda
+kunskaper om såväl avancerade språkkonstruktioner och
+programmeringstekniker som om dataabstraktion, datastrukturer
+och algoritmer. Kursens syfte är att ge studenterna utökade
+kunskaper om objektorienterade programmeringstekniker och om ett
+urval av algoritmer och datastrukturer lämpade för lösning av
+vanligt förekommande problem. Kursen skall också ge de
+färdigheter som krävs för att förstå och utnyttja moderna
+bibliotek för objektorienterad programmering som implementerar
+klassiska datastrukturer och algoritmer.;Anna.Axelsson@cs.lth.se;3/;Årskurs 1 (obligatoriska kurser);
+EDAA35;7;G1;Utvärdering av programvarusystem;Kursens syfte är att ge förståelse om hur vetenskapliga
+studier genomförs, samt kunskap om vetenskapligt skrivande och
+muntlig presentation av vetenskapligt arbete. Mer specifikt
+behandlar kursen hur man kan utvärdera programvarusystem, samt hur
+utvärderingar av denna i typ bör planeras, genomföras och
+rapporteras.;Martin.Host@cs.lth.se;3/4/;Årskurs 1 (obligatoriska kurser);
+EDAA40;5;G1;Diskreta strukturer i datavetenskap;Syftet med kursen är att introducera några av de mest basal
+formella koncepten och terminologin inom datavetenskapen och att ge
+ett gemensamt språkbruk, inklusive konventioner för notation och
+nomenklatur som senare kurser kan bygga på. Detta inkluderar en
+introduktion till abstrakt mängdteori, relationer, funktioner,
+ordnade mängder, boolesk algebra, logik och bevistekniker liksom
+strukturer såsom grafer och träd.;jorn.janneck@cs.lth.se;4/;Årskurs 1 (obligatoriska kurser);
+FMAB20;6;G1;Linjär algebra;Kursens syfte är att ge en grundläggande introduktion till den
+linjära algebran. Särskild fokus läggs på den roll denna spelar
+i tillämpningar inom teknikämnen av olika slag, med avsikt att ge
+den blivande civilingenjören en god grund för vidare studier i
+såväl matematik som andra ämnen. Syftet är vidare att utveckla
+studenternas förmåga att lösa problem och att tillgodogöra
+sig matematisk text.;Studierektor@math.lth.se;4/;Årskurs 1 (obligatoriska kurser);
+FMAB30;6;G1;Flerdimensionell analys;Kursen syftar till att ge en grundläggande behandling av den
+flerdimensionella analysen. Särskilt fokuseras den roll som denna
+spelar i tillämpningar inom teknikämnen av olika slag, med avsikt
+att ge den blivande civilingenjören en god grund för vidare
+studier i såväl matematik som andra ämnen. Syftet är vidare att
+utveckla studenternas förmåga till problemlösning och att
+tillgodogöra sig matematisk text.;Studierektor@math.lth.se;1/;Årskurs 2 (obligatoriska kurser);
+EDAF60;4,5;G2;Objektorienterad modellering och design;Kursen ger förmåga till hållbar och resursmedveten utveckling
+av program som kan återanvändas och modifieras med hänsyn till
+förändrade krav i ett industriellt sammanhang.;ulf.asklund@cs.lth.se;1/;Årskurs 2 (obligatoriska kurser);
+EITF65;9;G2;Digitalteknik;Kursens syfte är att ge grundläggande kunskaper om
+konstruktion av digitala system. Särskilt betonas förmågan att
+bygga och analysera modeller.;martin.hell@eit.lth.se;1/2/;Årskurs 2 (obligatoriska kurser);
+EITF45;7,5;G2;Datorkommunikation;Kursen ger grundläggande förståelse för principer och
+uppbyggnad av system för datorkommunikation, datanät och
+distribuerade system. Dessutom tränas den muntliga och skriftliga
+förmågan genom ett projekt.;maria.kihl@eit.lth.se;2/;Årskurs 2 (obligatoriska kurser);
+EDAF45;7,5;G2;Programvaruutveckling i grupp - projekt;Många civilingenjörer kommer under sin karriär att samarbeta
+med andra i utveckling av programvara. Syftet med kursen är att ge
+kunskaper om och praktisk erfarenhet av hur man samverkar i ett
+team för att ta fram en programvaruprodukt. Fokus ligger på
+metoden extremprogrammering, en högiterativ, så kallad agil,
+utvecklingsprocess som syftar till hållbar utveckling av mjukvara.
+Kursen tar upp principer för samarbete med beställaren,
+planering, hållbar design/implementation, testning och leverans.
+Kursen fungerar samtidigt som fördjupning inom objektorienterad
+programmering. Kursen ger även studenten en grundläggande kunskap
+om hur utveckling av programvarusystem generellt går till, samt en
+förmåga att reflektera kring syftet med olika moment i en
+utvecklingsmetodik.;ulf.asklund@cs.lth.se;2/3/;Årskurs 2 (obligatoriska kurser);
+EITF70;6;G2;Datorteknik;Kursens syfte är att ge en introduktion till hur ett
+datorsystem fungerar på maskinspråksnivå och hårdvarunivå.;erik.larsson@eit.lth.se;3/;Årskurs 2 (obligatoriska kurser);
+FMAF10;5;G2;Tillämpad matematik - Linjära system;Kursens syfte är att behandla några matematiska begrepp och
+metoder, på nivån ovanför grundkurserna, som är viktiga för
+vidare studier inom till exempel maskininlärning,
+signalbehandling, reglerteknik, ellära samt för framtida
+yrkesverksamhet.;Studierektor@math.lth.se;3/;Årskurs 2 (obligatoriska kurser);
+EDAF05;5;G2;Algoritmer, datastrukturer och komplexitet;Algoritmer och datastrukturer spelar en fundamental roll inom
+datavetenskap. Datastrukturer används för att modellera
+verkligheten och valet av representation påverkar algoritmers
+effektivitet. Ett syfte med kursen är att ge kunskap om ett
+antal avancerade datastrukturer för några av de abstrakta
+modeller som ingått i tidigare kurser samt om datastrukturer för
+ytterligare modeller såsom grafer. Ett annat syfte är att ge
+utökade kunskaper om algoritmer, framför allt grafalgoritmer.
+Vidare skall kursen ge goda kunskaper i hur man analyserar en
+algoritm med avseende på effektivitet.;Thore.Husfeldt@cs.lth.se;4/;Årskurs 2 (obligatoriska kurser);
+EITA10;5;G1;Elektronik;Studenterna skall få en förståelse för kretsteknikens
+grunder och de däri ingående grundläggande elementen. Studenten
+skall kunna tillämpa dessa kunskaper tillsammans med den
+introduktion till de elektroniska komponenterna som kursen
+innehåller för att kunna bygga enklare elektriska kopplingar till
+ett inbyggt system. Studenten skall också få en inblick i
+inbyggda system, och det samspel mellan programvara,
+mikrokontroller och elektronik som finns i dessa.;johan.wernehag@eit.lth.se;4/;Årskurs 2 (obligatoriska kurser);
+EDAF95;5;G2;Grundläggande funktionsprogrammering;Kursen ger insikt i hur det funktionsorienterande
+programmeringsparadigmet ofta ger möjlighet att skriva program som
+är både kortare och lättare att förstå än med traditionell
+imperativ och objektorienterad programmering.;Jacek.Malec@cs.lth.se;4/;Årskurs 2 (obligatoriska kurser);
+FMAF01;7;G2;Matematik - Funktionsteori;Att ge matematiska begrepp och metoder från reell och komplex
+analys som är viktiga för vidare studier inom till exempel
+matematik, ekonomi, fysik, fältteori, matematisk statistik,
+reglerteknik och signalteori samt för framtida yrkesverksamhet.
+Syftet är vidare att få studenten att utveckla sin förmåga att
+lösa problem, att tillgodogöra sig matematisk text och att
+kommunicera matematik.;Studierektor@math.lth.se;3/;Årskurs 2 (alternativobligatoriska kurser);
+EDAN40;7,5;A;Funktionsprogrammering;Kursen ger insikt i hur den funktionsorienterande
+programmeringsparadigmen ofta ger möjlighet att skriva program som
+är både kortare och lättare att förstå än med traditionell
+imperativ och objektorienterad programmering.;Jacek.Malec@cs.lth.se;4/;Årskurs 2 (alternativobligatoriska kurser);
+FMAF05;7;G2;Matematik - System och transformer;Att ge matematiska begrepp och metoder från linjär algebra
+och analys som är viktiga för systemteori (kontinuerlig och
+diskret), och för vidare studier inom till exempel matematik,
+ekonomi, fysik, matematisk statistik, mekanik,
+reglerteknik, signalteori samt för framtida yrkesverksamhet.
+Syftet är vidare att utveckla studenternas förmåga att lösa
+problem, att tillgodogöra sig matematisk text och att kommunicera
+matematik.;Studierektor@math.lth.se;4/;Årskurs 2 (alternativobligatoriska kurser);
+EDAP10;7,5;A;Flertrådad programmering;I flertrådade program hanteras parallella, asynkrona förlopp,
+ofta i interaktion med en fysisk omvärld. Bland de många
+tillämpningarna återfinns styrsystem, nätverkskommunikation,
+samt interaktiva system. Kursen syftar till att ge förmåga att
+konstruera robusta, resurseffektiva och välstrukturerade
+flertrådade program.;patrik.persson@cs.lth.se;1/;Årskurs 3 (obligatoriska kurser);
+FRTF05;7,5;G2;Reglerteknik, allmän kurs;Syftet med kursen är att ge kunskap om de grundläggande
+principerna inom reglertekniken. Kursen skall ge insikt om vad man
+kan åstadkomma med reglering, vilka möjligheter och
+begränsningar som finns. Kursen behandlar linjära
+tidskontinuerliga system.;tore.hagglund@control.lth.se;1/;Årskurs 3 (obligatoriska kurser);
+ETSF25;7,5;G2;Affärsdriven programvaruutveckling;Kursens syfte är att ge studenten insikter och kunskaper i
+affärsmässiga aspekter av mjukvaruutveckling. Detta innefattar
+hur marknad och ekonomi samspelar med den tekniska utvecklingen,
+begreppet innovation, affärsmodeller för mjukvaruprodukter och
+-tjänster, hur utvecklingsresurser skapas och används, hur
+projekt planeras och leds såväl inom etablerade företag som
+startups. Kursen syftar också till att belysa etiska
+frågeställningar och juridiska ramverk som påverkar
+programvaruutvecklingen.;elizabeth.bjarnason@cs.lth.se;2/;Årskurs 3 (obligatoriska kurser);
+FMSF20;7,5;G2;Matematisk statistik, allmän kurs;Kursen ska ge studenten grunderna i matematisk modellering av
+slumpmässig variation och förståelse för
+principerna bakom statistiska analyser. Den ska också ge
+studenterna en verktygslåda med de vanligaste modellerna och
+metoderna samt förmågan att använda dessa i olika praktiska
+situationer. Studenten ska också kunna modifiera
+standardmodellerna och metoderna till olika
+icke-standardsituationer och kunna hantera beroende mellan
+observationer.;studierektor@matstat.lu.se;2/;Årskurs 3 (obligatoriska kurser);
+EITA25;7,5;G1;Datasäkerhet;Kursen syftar att ge studenten en god översikt över de
+relevanta områden inom datasäkerhet samt fördjupade kunskaper
+inom några av dessa.;martin.hell@eit.lth.se;3/;Årskurs 3 (obligatoriska kurser);
+FMNF05;6;G2;Numerisk analys;Kursens syfte är att lära ut grundläggande beräkningsteknik
+för att lösa enkla och vanligt förekommande matematiska problem
+med hjälp av dator och numerisk programvara. Detta omfattar
+konstruktion, tillämpning och analys av grundläggande
+beräkningsalgoritmer. Problemlösning på dator utgör ett
+centralt inslag i kursen.;Studierektor@math.lth.se;3/;Årskurs 3 (obligatoriska kurser);
+FMIF45;4;G2;Hållbarhet och resursanvändning med perspektiv på informations- och kommunikationsteknik;Syftet med kursen är att ge studenter grundläggande kunskap om
+väsentliga miljö- och resursproblem och om hur en mer hållbar
+utveckling kan främjas genom politiska mål och styrmedel,
+tekniska lösningar och verktyg för miljöarbete. Informations-
+och kommunikationsteknik (IKT), inklusive dess fysiska
+infrastruktur (datorer, smarta telefoner, serverhallar etc) är en
+viktig utgångspunkt i kursen som särskilt syftar till att ge
+studenten kunskap om hur denna verksamhet bidrar till miljö- och
+resursproblem genom användning av energi och råmaterial och
+efterlämnande av avfall. Ett annat mål med kursen är att
+inspirera studenterna att fundera över hur IKT kan bidra till
+hållbara samhällslösningar.;karin.ericsson@miljo.lth.se;3/4/;Årskurs 3 (obligatoriska kurser);
+EITF95;4,5;G2;Kösystem;Kursens syfte är att ge en introduktion till metoder för att
+förutsäga realtidsegenskaper hos betjäningssystem, i synnerhet
+för telekommunikationssystem.;christian.nyberg@eit.lth.se;4/;Årskurs 3 (obligatoriska kurser);
+EITA50;7,5;G1;Signalbehandling i multimedia;Dagligen använder vi utrustning där signaler lagras och
+behandlas i digital form. Från den enkla digitala
+signalbehandlingen som sker i en CD-spelare till avancerad
+komprimering i t.ex. MP3 kodning av musik, kodning av tal i GSM,
+digital video för DVD, bildbehandling, etc. Kursen ger
+grundläggande kunskaper i digital signalbehandling och kunskaper
+om signalers frekvensegenskaper och frekvensinnehåll.;jan_eric.larsson@eit.lth.se;4/;Årskurs 3 (obligatoriska kurser);
+FMAN20;7,5;A;Bildanalys;Kursens huvudsyfte är att ge en grundläggande introduktion
+till teori och matematiska metoder inom bildanalys, i tillräcklig
+omfattning för att studenten skall kunna ta sig an industriella
+bildbehandlingsproblem. Vidare är syftet att få studenten att
+utveckla sin förmåga till problemlösning, både med och utan
+dator. Ett ytterligare syfte är att förbereda studenten för
+fortsatta studier i t ex datorseende, multispektral bildanalys och
+statistisk bildanalys.;studierektor@math.lth.se;1/;Bilder och grafik;
+EDAF80;7,5;G2;Datorgrafik;Att ge grundläggande kunskaper om metoder och tekniker inom 3D
+datorgrafik samt praktisk erfarenhet av grafikprogrammering.;Michael.Doggett@cs.lth.se;1/;Bilder och grafik;
+MAMN25;7,5;A;Interaktionsdesign;Kursen syftar till att ge förståelse för grundläggande
+tekniker inom interaktionsdesign, samt förmåga att utforma
+interaktiva produkter och system, med hänsyn till olika
+intressenters behov och villkor. Kunskap i interaktionsdesign
+bidrar till en hållbar utveckling av och attityd till samspelet
+mellan människa och teknik i samhället.;johanna.persson@design.lth.se;1/;Bilder och grafik;
+FMSF10;7,5;G2;Stationära stokastiska processer;Studenten ska tillägna sig en verktygslåda med begrepp och
+modeller för beskrivning och hantering av stationära stokastiska
+processer inom många olika områden, t.ex.
+signalbehandling, reglerteknik, informationsteori, ekonomi,
+biologi, kemi, medicin. De matematisk-statistiska momenten
+illustreras därför genom rikligt med exempel från olika
+tillämpningsområden.;studierektor@matstat.lu.se;1/;Bilder och grafik;
+FMAN70;6;A;Matristeori;Kursens främsta syfte är att ge kännedom om begrepp och
+metoder från matristeori och linjär algebra som är viktiga för
+tillämpningar inom ett stort antal tekniska,
+naturvetenskapliga och ekonomiska ämnen, samt förtrogenhet med
+deras användning. Därutöver ska kursen allmänt utveckla
+studentens förmåga att tillägna sig och kommunicera matematisk
+teori och att lösa problem. Dessutom ska kursen stärka
+studenternas färdighet i matematikprogrammering.;Studierektor@math.lth.se;1/2/;Bilder och grafik;
+EXTQ40;7,5;A;Introduktion till artificiella neuronnätverk och deep learning;Kursens övergripande syfte är att ge studenten grundläggande
+kunskaper om artificiella neuronnätverk och deep learning, både
+teoretiska kunskaper och hur man praktiskt använder dem för
+typiska problem inom maskininlärning och datautvinning.;mattias@thep.lu.se;2/;Bilder och grafik;
+FMAN40;3;A;Projekt i tillämpad matematik;Kursens syfte är dels att komplettera någon av kurserna i
+tillämpad matematik med ett projekt och dels att ge träning i
+muntlig och skriftlig kommunikation.;Studierektor@math.lth.se;2/;Bilder och grafik;
+EDAN95;7,5;A;Tillämpad maskininlärning;Att ge en introduktion till flera delområden inom
+maskininlärning och att orientera om grundläggande metoder och
+algoritmer tillgängliga inom dessa områden. Att förmedla bredd
+och djup inom ämnet.;jacek.malec@cs.lth.se;2/;Bilder och grafik;
+FMAN85;6;A;Datorseende;Kursen syftar till att ge en översikt över teori och
+praktiskt användbara metoder i datorseende, med tillämpningar
+inom t.ex. seende system, icke-förstörande mätningar och
+"augmented reality". Syftet är vidare att få studenten att
+utveckla sin förmåga till problemlösning, både med och utan
+dator, med användning av matematiska verktyg tagna från många
+områden inom de matematiska vetenskaperna, framför allt geometri,
+optimering, matematisk statistik, invariantteori och
+transformteori.;Studierektor@math.lth.se;3/;Bilder och grafik;
+MAMF45;7,5;G2;Virtual Reality i teori och praktik;Studenten skall tillägna sig en översikt av området Virtual
+Reality, inte bara från en teknisk synvinkel, utan även utifrån
+det komplexa samspelet mellan människans perceptuella system och
+teknologin.;Joakim.Eriksson@design.lth.se;3/4/;Bilder och grafik;
+MAMN01;7,5;A;Avancerad interaktionsdesign;Kursen syftar till att:;kirre@certec.lth.se;4/;Bilder och grafik;
+FMAN45;7,5;A;Maskininlärning;Att ge kännedom om grunderna för maskinlärning --
+konstruktion av automatiserade system som kan lära/hämta
+information från data, till exempel lära sig känna igen tecken i
+handskriven text.;cristian.sminchisescu@math.lth.se;4/;Bilder och grafik;
+FMAN40;3;A;Projekt i tillämpad matematik;Kursens syfte är dels att komplettera någon av kurserna i
+tillämpad matematik med ett projekt och dels att ge träning i
+muntlig och skriftlig kommunikation.;Studierektor@math.lth.se;4/;Bilder och grafik;
+ETIF10;7,5;G2;Signalbehandling - design och implementering;Kursen ger lösningar till problem inom signalbehandling där
+design av filter, filterbankar och snabba algoritmer för
+implementering efterfrågas. Kursen ger grunderna i wavelet-teori
+och pekar på olika tillämpningar där waveletanalys är ett
+kraftfullt verktyg. Kursen ger en översikt på tillämpningar där
+dessa lösningar används. Studenten skall ges tillräckliga
+insikter om teori och handhavande för att självständigt kunna
+formulera det matematiska problemet, lösa det och implementera
+lösningen för användning med verkliga signaler.;leif.sornmo@bme.lth.se;4/;Bilder och grafik;
+FMSN20;7,5;A;Spatial statistik med bildanalys;Kursens syfte är att studenten ska tillägna sig verktyg för
+att hantera högdimensionella statistiska problem. Kursen
+innehåller modeller och metoder med praktiska tillämpningar
+främst inom spatial statistik och bildanalys. Speciellt viktigt
+är de Bayesianska aspekterna, eftersom de bildar grunden för
+många moderna spatiala statistiska metoder och bildanalysmetoder.
+Kursen fokuserar på metoder med tillämpningar inom klimat,
+miljöstatistik och fjärranalys.;studierektor@matstat.lu.se;2/;Bilder och grafik;
+ETIN20;7,5;A;Digital IC-konstruktion;Digital IC-konstruktion är den första kursen, i digital
+VLSI-konstruktion, av totalt 5. Denna kurs syftar till att skapa
+en grundlig förståelse för digital integrerad kretskonstruktion.
+Den ges parallellt med kurserna Analog IC-konstruktion och Digitala
+strukturer på kisel. Ökande komplexitet och ökande krav på
+prestanda i form av snabbhet och effektsnålhet ställer allt
+högre krav på hårdvarukonstruktören. Att förstå både
+möjligheterna och begränsningarna är viktigt inte bara för den
+som gör ”full custom designs”. Även den som gör
+högnivåkonstruktioner (t.ex. i VHDL) måste känna till grunderna
+för att kunna göra effektiva VLSI-implementeringar.;joachim.rodrigues@eit.lth.se;1/;Design av processorer och digitala system;
+EITF35;7,5;G2;Digitala strukturer på kisel;Kunskap och förståelse
+För godkänd kurs skall studenten;liang.liu@eit.lth.se;1/;Design av processorer och digitala system;
+ETIN70;7,5;A;Modern elektronik;Modern elektronik  är både forskning kring kommande
+teknologier och grunden till industriell användning av etablerad 
+teknologi. Kursen ger  grundläggande kunskaper i komponenter
+och  elektronik och  ger en översikt av  olika  etablerade
+teknologier. Kursen ger även en grund för nya forskningskoncept
+som neuromorfiska system såväl som avancerad digital och analog
+kretsdesign för IoT och 5G teknologi. Speciellt syftar kursen till
+att öppna för studenter med varierande förkunskaper att läsa
+fortsättningskurser inom både materialdriven elektronikutveckling
+och avancerad kretsdesign t.ex. Höghastighetskomponenter,
+Nanoelektronik, och Analog IC design.;johannes.svensson@eit.lth.se;1/;Design av processorer och digitala system;
+EITF80;9;G2;Elektromagnetisk fältteori;Teknologen skall tillägna sig grundläggande kunskaper i
+vektoranalys och elektromagnetisk fältteori. Teknologen skall
+träna upp en god förmåga att utföra beräkningar på givna
+problem.;buon_kiong.lau@eit.lth.se;1/2/;Design av processorer och digitala system;
+EITF20;7,5;G2;Datorarkitektur;Målet med kursen är att introducera datorsystem på nivån
+ISA (Instruction Set Architectures).  Kursens syfte är att ge en
+grundläggande förståelse för de konstruktionsprinciper som styr
+moderna datorarkitekturer och de komponenter datorer är uppbyggda
+av. Speciellt uppmärksammas(super skalär) pipelining och
+minneshierarkier inklusive cache.  Kvantitativa analysmetoder för
+bl.a. prestanda diskuteras i syfte att utvärdera olika alternativa
+datorarkitekurer.;liang.liu@eit.lth.se;2/;Design av processorer och digitala system;
+ETIN45;7,5;A;DSP-design;Digital signalbehandling är ett område som blir allt viktigare
+i många produkter och system idag. När algoritmer inom detta
+område skall implementeras finns det ett stort antal möjliga
+alternativ beroende på krav angående till exempel realtid och
+effektförbrukning. Kursen skall ge studenterna en förståelse
+för hur olika implementeringsalternativ påverkar prestanda,
+flexibilitet och inte minst tid och kostnad för
+konstruktionsarbetet.;johan.wernehag@eit.lth.se;3/;Design av processorer och digitala system;
+EITP15;7,5;A;Kretskortsdesign och prototypkonstruktion;Arbete i projektgrupp är förmodligen den vanligaste
+situationen för en civilingenjör antingen som projektledare eller
+som specialist på något område. Kursen ger studenten
+färdigheter och säkerhet i att använda kunskaper om analoga och
+digitala byggblock, samt illustrerar industriellt
+utvecklingsarbete.;christoffer.cederberg@eit.lth.se;3/;Design av processorer och digitala system;
+ESSF10;5;G2;Mätteknik;Mätteknik kommer in inom i princip alla verksamhetsområden
+för en civilingenjör. Det kan t.ex. röra sig om detaljerade
+studier av signaler från nervceller i hjärnan, detektering av
+ljus i optiska fiber eller övervakning av tillverkningen i en
+processindustri. Framtagning av nya mätmetoder och givare sker i
+en allt snabbare takt där utvecklingen inom inte minst
+mikrosystemteknik-området spelar en stor roll.;johan.nilsson@bme.lth.se;3/;Design av processorer och digitala system;
+ETIN35;7,5;A;IC-projekt 1;Kursens mål är att ge insikt i praktisk konstruktion av
+integrerade kretsar med speciell tonvikt lagd på system-på-kisel.
+Kretsarna kan vara antingen analoga, digitala, datororienterade,
+eller "mixed-mode" och konstruktionsarbetet kan utföras antingen
+på transistor eller blocknivå.;joachim.rodrigues@eit.lth.se;3/4/;Design av processorer och digitala system;
+EDAN15;7,5;A;Konstruktion av inbyggda system;Kursens syfte är att studenterna skall lära sig grundläggande
+metoder för konstruktion av inbyggda system som innehåller
+hårdvaru- och programvarukomponenter.;Krzysztof.Kuchcinski@cs.lth.se;4/;Design av processorer och digitala system;
+ETIN40;7,5;A;IC-projekt 2;Kursens mål är att ge insikt i praktisk verifiering av
+integrerade kretsar med speciell tonvikt lagd på system-på-kisel.
+Kretsarna som ska verifieras konstrueras av studenterna i kursen
+IC-projekt, och kan vara antingen analoga, digitala,
+datororienterade, eller "mixed-mode" och konstruktionsarbetet kan
+utföras antingen på transistor eller blocknivå.;joachim.rodrigues@eit.lth.se;1/2/;Design av processorer och digitala system;
+ETIN55;7,5;A;Integrerade A/D och D/A omvandlare;Kursen skall ge teknologen en grundläggande kunskap om två
+typer av väldigt viktiga ”mixed-signal” kretsar, dvs A/D- och
+D/A-omvandlare, som blir allt mer centrala i moderna elektroniska
+system. Medan signalbehandlingens största del utan tvekan utförs
+i den digitala domänen, väldigt ofta är systemets ingång
+och/eller utgång analog: som exempel kan nämnas
+effektförstärkare i digitalt ljud, skärmar och monitorer i
+digital video, och antennen i radiokommunikationer, alla
+tillämpningar som typiskt kräver högpresterande A/D- och
+D/A-omvandlare. Faktum är att mycket skilda områden som
+radiokommunikation, kabelkommunikation, hörapparater, och i
+allmänhet alla typer av inbyggda system, upplever ett mycket
+starkt tryck mot att förflytta omvandlarna närmare och närmare
+användargränssnittet, för att komma in i det robusta och
+konstruktörvänliga digitala området så fort som möjligt.
+Följaktligen, prestandan hos A/D- och D/A-omvandlarna, i termer av
+omvandlingshastighet, signalområde, energiförbrukning och
+kretsyta, är en mycket viktig parameter i många kommersiella
+kretsars övergripande kvalitet.;Pietro.Andreani@eit.lth.se;2/;Design av processorer och digitala system;
+EITF35;7,5;G2;Digitala strukturer på kisel;Kunskap och förståelse
+För godkänd kurs skall studenten;liang.liu@eit.lth.se;1/;Inbyggda system;
+EDAN65;7,5;A;Kompilatorer;De grundläggande teorier och metoder som används inom
+kompilatorteknik är centrala för hela det datavetenskapliga
+ämnet och brett tillämpningsbara inom såväl forskning som
+mjukvaruutveckling.;Gorel.Hedin@cs.lth.se;1/;Inbyggda system;
+EIEN45;10;A;Tillämpad mekatronik;Utveckling av dagens och morgondagens produkter kräver allt
+oftare en optimerad kombination av elektromekaniska lösningar och
+inbyggda system (integrerad elektronik och programvara). Kursens
+syfte är att studenten ska använda sina kunskaper och
+färdigheter från tidigare kurser och självständigt söka
+lösningar på komplexa uppgifter. Kursen består av två delar.
+Den första är framtagandet av en konceptlösning med tekniska
+specifikationer av ett industriellt verkligt problem (vilken sedan
+implementeras till en fungerande prototyp i en påföljande valfri
+kurs). Konceptlösningen tas fram av ett mekatroniskt team med
+kompetenser från olika ämnesområden, dvs minst en av studenterna
+i gruppen kommer från program E och minst en från program M. Den
+andra delen av kursen är en individuell uppgift som innebär
+konstruktion av ett komplett mekatroniskt system för styrning och
+reglering av en likströmsmotor omfattande datorkommunikation,
+elektronikkonstruktion och uppbyggnad på kretskort,
+mikroprocessorprogrammering, givarteknik och reglerteknik.
+Byggandet av systemet görs i ett 24/7-öppet lab, där samarbete
+uppmuntras, men redovisningen är individuell.;francisco.marquez_fernandez@iea.lth.se;1/2/;Inbyggda system;
+EITF20;7,5;G2;Datorarkitektur;Målet med kursen är att introducera datorsystem på nivån
+ISA (Instruction Set Architectures).  Kursens syfte är att ge en
+grundläggande förståelse för de konstruktionsprinciper som styr
+moderna datorarkitekturer och de komponenter datorer är uppbyggda
+av. Speciellt uppmärksammas(super skalär) pipelining och
+minneshierarkier inklusive cache.  Kvantitativa analysmetoder för
+bl.a. prestanda diskuteras i syfte att utvärdera olika alternativa
+datorarkitekurer.;liang.liu@eit.lth.se;2/;Inbyggda system;
+FRTN40;7,5;A;Projekt i reglerteknik;Syftet med kursen är att befästa och utveckla studentens
+reglerteknikkunskaper i form av ett praktiskt projekt. Projektet
+innehåller ett flertal av de typiska momenten i ett reglertekniskt
+projekt: modellering, identifiering, analys, syntes och
+datorimplementering.;kristian.soltesz@control.lth.se;2/;Inbyggda system;
+EITN30;7,5;A;Internet inuti;Syftet med kursen är att illustrera utvecklingsarbete med
+inbyggda system. Studenterna får integrera kunskaper från flera
+kurser inom programmering och kommunikation genom ett
+självständigt arbete.;mats.cedervall@eit.lth.se;3/;Inbyggda system;
+BMEN20;7,5;A;Projektkurs i signalbehandling – från idé till app;Kursen syftar till att ge kunskap om implementering av
+signalbehandlingsalgoritmer i mobila plattformar. Vidare syftar
+kursen till att belysa de problem som uppstår vid implementering i
+realtid och att utvärdera de prestanda som uppnås med
+implementeringarna.;frida.sandberg@bme.lth.se;3/;Inbyggda system;
+FRTN01;10;A;Realtidssystem;Syftet med kursen är att teknologen skall lära sig hur man
+designar och implementerar datorbaserade reglersystem.;karl-erik.arzen@control.lth.se;3/4/;Inbyggda system;
+EDAF15;5;G2;Algoritmimplementering;Kursens huvudsyfte är att studenterna ska lära sig en metodik
+för att hitta en fördelaktig version av en algoritm och att
+maximera prestanda vid implementering av denna. För att nå detta
+huvudsyfte är två andra syften med kursen att studenterna ska ha
+kunskaper dels (1) om programspråket ISO C11 med fokus på vilka
+språkkonstruktioner som ofta blir effektiva och/eller påverkar
+portabilitet, och dels (2) om modern datorarkitektur, ur
+programmerarens synvinkel, med fokus på mikroprocessorer och
+cacheminnen.;jonas.skeppstedt@cs.lth.se;4/;Inbyggda system;
+EDAA25;3;G1;C-programmering;Kursens syfte är att studenterna ska lära sig skriva program i
+språket C.;jonas.skeppstedt@cs.lth.se;4/;Inbyggda system;
+EDAN15;7,5;A;Konstruktion av inbyggda system;Kursens syfte är att studenterna skall lära sig grundläggande
+metoder för konstruktion av inbyggda system som innehåller
+hårdvaru- och programvarukomponenter.;Krzysztof.Kuchcinski@cs.lth.se;4/;Inbyggda system;
+EDAF35;7,5;G2;Operativsystem;Kursens syfte är att studenterna skall förstå hur
+operativsystem är konstruerade, vilket är en viktig del i
+totalförståelsen av datorsystem. Mer konkret är ett mål att
+studenterna, när de är färdiga civilingenjörer, med speciell
+kunskap från denna kurs, ska kunna arbeta med Linuxkärnan.;flavius.gruian@cs.lth.se;4/;Inbyggda system;
+EDAN26;7,5;A;Multicoreprogrammering;Kursens syfte är att studenterna ska lära sig att implementera
+en algoritm så effektivt som möjligt på en given multicoredator,
+med fokus på multiprocessorer med delat minne. Ett annat syfte är
+att få insikt om fördelar och nackdelar med olika språk för
+multicore programmering, såsom Java, Scala, C samt OpenMP.
+Studenterna ska även få förståelse för låsningsfria
+algoritmer och datastrukturer.;jonas.skeppstedt@cs.lth.se;1/;Inbyggda system;
+FMAN20;7,5;A;Bildanalys;Kursens huvudsyfte är att ge en grundläggande introduktion
+till teori och matematiska metoder inom bildanalys, i tillräcklig
+omfattning för att studenten skall kunna ta sig an industriella
+bildbehandlingsproblem. Vidare är syftet att få studenten att
+utveckla sin förmåga till problemlösning, både med och utan
+dator. Ett ytterligare syfte är att förbereda studenten för
+fortsatta studier i t ex datorseende, multispektral bildanalys och
+statistisk bildanalys.;studierektor@math.lth.se;1/;Maskinintelligens;
+EDAN20;7,5;A;Språkteknologi;Under de senaste 15 åren har de språkteknologiska metoderna
+mognat avsevärt på grund av att mängden tillgänglig skriven och
+talad information har ökat kraftigt, vilket har lett till ökande
+behov av att behandla den automatiskt. Fastän de flesta
+datorsystem inte enbart ägnar sig åt språkbehandling så finns
+det numera många applikationer som i någon mån är
+"språkmedvetna" och har inbyggda språkteknologiska funktioner
+såsom stavnings- och grammatikkontroll, sökning och
+sammanfattning av information eller ett talbaserat
+dialoggränssnitt. Detta gör att fältet är av ökande betydelse
+för CS-ingenjörer.;Pierre.Nugues@cs.lth.se;1/;Maskinintelligens;
+FMSF10;7,5;G2;Stationära stokastiska processer;Studenten ska tillägna sig en verktygslåda med begrepp och
+modeller för beskrivning och hantering av stationära stokastiska
+processer inom många olika områden, t.ex.
+signalbehandling, reglerteknik, informationsteori, ekonomi,
+biologi, kemi, medicin. De matematisk-statistiska momenten
+illustreras därför genom rikligt med exempel från olika
+tillämpningsområden.;studierektor@matstat.lu.se;1/;Maskinintelligens;
+FRTF20;7,5;G2;Tillämpad robotteknik;Kursens syfte är att ge baskunskaper i industriell robotteknik
+där teorin appliceras på industriella problem. Kursen syftar till
+att ge förståelse för hur teorin kan användas inom ämnet samt
+öka ingenjörsmässigheten och förmågan att skapa modeller för
+analys, simulering och programmering, och utforma lösningar på
+problem som leder fram till effektiv användning av robotar i
+industrin.;Anders.Robertsson@control.lth.se;1/;Maskinintelligens;
+EXTQ40;7,5;A;Introduktion till artificiella neuronnätverk och deep learning;Kursens övergripande syfte är att ge studenten grundläggande
+kunskaper om artificiella neuronnätverk och deep learning, både
+teoretiska kunskaper och hur man praktiskt använder dem för
+typiska problem inom maskininlärning och datautvinning.;mattias@thep.lu.se;2/;Maskinintelligens;
+FMAN60;6;A;Optimering;Syftet med kursen är att presentera den grundläggande
+optimeringsteorin och att ge en översikt över de viktigaste
+metoderna och deras praktiska användning.;Studierektor@math.lth.se;2/;Maskinintelligens;
+EDAN95;7,5;A;Tillämpad maskininlärning;Att ge en introduktion till flera delområden inom
+maskininlärning och att orientera om grundläggande metoder och
+algoritmer tillgängliga inom dessa områden. Att förmedla bredd
+och djup inom ämnet.;jacek.malec@cs.lth.se;2/;Maskinintelligens;
+EDAP01;7,5;A;Artificiell intelligens;Att ge en introduktion till flera delområden inom artificiell
+intelligens och att orientera om grundläggande metoder inom dessa
+områden. Att förmedla bredd och djup inom ämnet. At orientera om
+etiska konsekvenserna av AI-baserad teknologi.;Jacek.Malec@cs.lth.se;3/;Maskinintelligens;
+FMAN85;6;A;Datorseende;Kursen syftar till att ge en översikt över teori och
+praktiskt användbara metoder i datorseende, med tillämpningar
+inom t.ex. seende system, icke-förstörande mätningar och
+"augmented reality". Syftet är vidare att få studenten att
+utveckla sin förmåga till problemlösning, både med och utan
+dator, med användning av matematiska verktyg tagna från många
+områden inom de matematiska vetenskaperna, framför allt geometri,
+optimering, matematisk statistik, invariantteori och
+transformteori.;Studierektor@math.lth.se;3/;Maskinintelligens;
+FRTN15;7,5;A;Prediktiv reglering;Avancerade kunskaper om modellbaserad design av reglersystem
+omfattande prediktiva, adaptiva och läraktiga algoritmer för
+styrning av tidsvariabla och ofullständigt kända processer med
+störningar inkl. stabilitet och växelverkan mellan identifieing
+och reglering.;rolf.johansson@control.lth.se;3/4/;Maskinintelligens;
+FMAN45;7,5;A;Maskininlärning;Att ge kännedom om grunderna för maskinlärning --
+konstruktion av automatiserade system som kan lära/hämta
+information från data, till exempel lära sig känna igen tecken i
+handskriven text.;cristian.sminchisescu@math.lth.se;4/;Maskinintelligens;
+FRTN30;7,5;A;Nätverksdynamik;Olika typer av nätverk finns överallt i vårt moderna
+samhälle: infrastrukturnätverk tillhandahåller kommunikation,
+transporter och energi  sociala nätverk styr vår tillgång till
+information och påverkar våra åsikter  ekonomiska och
+finansiella nätverk styr ekonomiska transaktioner och finansiella
+kopplingar  och naturliga nätverk (t.ex. biologiska och fysiska
+nätverk) bestämmer evolution och spridningen av naturfenomen.
+
+Kursen ger en introduktion till och analys av matematiska modeller
+som används för att beskriva stora nätverk och dynamiska
+processer sker i stora nätverk. Motivering och tillämpningar
+kommer att beskrivas inom sociala, ekonomiska, naturvetenskapliga
+och infrastrukturnätverk, liksom nätverksbaserade beslutssystem
+såsom sensornätverk.;giacomo.como@control.lth.se;4/;Maskinintelligens;
+FRTN50;7,5;A;Optimering för maskininlärning;Att lära från data har blivit viktigare inom många
+ingenjörsområden. Metoder för sådan inlärning är ofta
+baserade på optimering  att träna en maskin består oftast av att
+lösa ett specifikt optimeringsproblem. Dessa problem är oftast
+storskaliga. I denna kurs kommer vi lära oss att lösa sådana
+optimeringsproblem effektivt. Traditionella metoder går inte att
+applicera då problemen är för stora. Vi kommer presentera en
+enhetlig beskrivning av algoritmer för storskalig konvex
+optimering och behandla algoritmer för det icke konvexa problemet
+att träna djupa neurala nätverk.;pontusg@control.lth.se;1/;Maskinintelligens;
+FRTN35;7,5;A;Systemidentifiering;Kursen syftar till att ge avancerade kunskaper och färdigheter
+i matematisk modellering utgående från mätdata med val av
+strukturell modell, parameterskattning, modellvalidering,
+prediktion, simulering och reglering.;rolf.johansson@control.lth.se;1/2/;Maskinintelligens;
+EITN50;7,5;A;Avancerad datasäkerhet;Kursen syftar till att ge studenten en fördjupad insikt i
+huvudproblem och lösningar inom datasäkerhet, inbyggda system
+samt datanätverk. Kursen fördjupar kunskaper av tidigare kurser
+och ger en analytisk insikt i dagens säkerhetslösningar för
+olika datorsystem. Kursen gör det möjligt att på egen hand
+välja rätt bland existerande lösningar samt att kunna komma med
+kvalitativt goda lösningsförslag.;ben.smeets@eit.lth.se;1/;Nätverk och säkerhet;
+EITG05;7,5;G2;Digital kommunikation;Kursens syfte är att ge grundläggande kunskaper om principer,
+begrepp,
+funktion, prestanda och begränsningar för digitala
+kommunikationssystem.;michael.lentmaier@eit.lth.se;1/;Nätverk och säkerhet;
+FMSF15;7,5;G2;Markovprocesser;Markovkedjor och -processer är en klass av modeller som
+förutom en rik matematisk struktur också har tillämpningar inom
+många discipliner som t.ex. telekommunikation och produktion (kö-
+och lagerteori), tillförlitlighetsanalys, finansmatematik (t.ex.
+dolda Markovmodeller), reglerteori och bildbehandling
+(Markovfält).;studierektor@matstat.lu.se;1/;Nätverk och säkerhet;
+EITF05;4;G2;Webbsäkerhet;Kursen ska ge studenten kunskaper om de säkerhetsproblem och
+lösningar som relaterar till webbaserade tekniker, samt
+fördjupade kunskaper inom ett par områden.;paul.stankovski@eit.lth.se;1/;Nätverk och säkerhet;
+EITN41;7,5;A;Avancerad webbsäkerhet;Kursen ska ge studenten fördjupad kunskap om de
+säkerhetsproblem som relaterar till webbteknologi. En del områden
+som kräver kryptografiska primitiver kommer behandlas i detalj och
+en förståelse för dessa ska ge studenten verktyg att applicera
+sin kunskap på andra säkerhetstekniker.;martin.hell@eit.lth.se;2/;Nätverk och säkerhet;
+ETTN01;7,5;A;Digital kommunikation, fortsättningskurs;Kursens syfte är att ge mycket goda kunskaper i avancerade
+metoder för digital kommunikation. Kursen ger en bredd och ett
+djup som gör att många av de idag förekommande metoderna samt en
+stor del av morgondagens kan förstås.;fredrik.rusek@eit.lth.se;2/;Nätverk och säkerhet;
+EITP10;7,5;A;Högpresterande fibernät;Målet med kursen är att ge fördjupade kunskaper om hur
+fibernäten är uppbyggda och fungerar i olika delar av
+kommunikationskedjan. Studenten ska ges en förståelse för hur
+näten är konstruerade och vilka krav som ställs på
+överföringen beroende på var i nätet det avses. Utifrån det
+ska de kunna avgöra vilken typ av fiberteknik som är lämplig och
+varför. De ska ha en förståelse för hur fiberkommunikation är
+uppbyggd från de fysiska elementen upp till nätverksarkitekturer.
+De skall vidare ha kunskap om drift av näten, samt hur nya nät
+installeras.;stefan.host@eit.lth.se;2/;Nätverk och säkerhet;
+ETSF10;7,5;G2;Internetprotokoll;Kursen syftar till att förse studenterna med fördjupade
+kunskaper, teoretiska såväl som tillämpade, om funktionen samt
+uppbyggnaden hos de mest centrala protokollen som bygger upp
+Internet. Man skall speciellt erhålla en djupare teknisk
+förståelse om:;bjorn.landfeldt@eit.lth.se;2/;Nätverk och säkerhet;
+EDIN01;7,5;A;Kryptoteknik;Syftet med kursen är att ge en orientering om klassiska
+kryptosystem samt att ge ingående kunskaper om moderna
+kryptosystem.;thomas@eit.lth.se;2/;Nätverk och säkerhet;
+FMAN10;7,5;A;Algebraiska strukturer;Kursens syfte är att ge en introduktion till de grundläggande
+begreppen och strukturerna inom abstrakt algebra, med inriktning
+mot sådant som är av betydelse i tillämpningar bl.a. inom
+datavetenskap, informationsteori, fysik och kemi. Kursen avser
+också att ge en djupare förståelse av grundbegreppen inom andra
+områden av matematik. Syftet är vidare att utveckla studenternas
+förmåga till problemlösning och att tillgodogöra sig matematisk
+text.;Studierektor@math.lth.se;3/;Nätverk och säkerhet;
+EITN30;7,5;A;Internet inuti;Syftet med kursen är att illustrera utvecklingsarbete med
+inbyggda system. Studenterna får integrera kunskaper från flera
+kurser inom programmering och kommunikation genom ett
+självständigt arbete.;mats.cedervall@eit.lth.se;3/;Nätverk och säkerhet;
+EITP20;7,5;A;Konstruktion av säkra system;Kursen syftar till att ge studenten insikt i hur man konstruerar
+nya mjuk- och hårdvarusystem med hänsyn till säkerhetsbehov och
+risker gällande hackerattacker. Kursen ämnar ge förståelse för
+hela processen från krav till designval och analys av ett
+säkerhetskritiskt datorsystem.;christian.gehrmann@eit.lth.se;3/;Nätverk och säkerhet;
+ETSN10;7,5;A;Nätverksarkitektur och prestanda;Kursen ger en djup förståelse för principer för nätverks
+konstruktion med hänsyn till prestandaaspekter. Kursen omfattar
+två huvudområden, undersökning och dimensionering av nätverk
+genom modellering och simulering samt fundamentala
+nätverksarkitekturer. Kursen behandlar både publika accessnät
+såsom 3G/LTE och trådlösa lokala nätverk såsom WLAN, Ad-hoc
+och Mesh nätverk, Sakernas internet etc. Vidare behandlar kursen
+uppförandet av nätverkande system ur ett kö- och
+flödesperspektiv samt mekanismer för att kontrollera prestanda.
+Kursen omfattar både teoretiska aspekter inom modellering och
+tillämpning genom ett systemdesignprojekt.;bjorn.landfeldt@eit.lth.se;3/;Nätverk och säkerhet;
+EITN45;7,5;A;Informationsteori;Målet med kursen är att ge studenterna insikt i principer för
+informationslagring och transmission, samt hur information kan
+representeras binärt. Kursen skall också ge förståelse för
+prestanda och fundamentala begränsningar i dagens och framtidens
+kommunikationssystem.;stefan.host@eit.lth.se;4/;Nätverk och säkerhet;
+EITN95;7,5;A;Simulering;Kursens syfte är att ge en introduktion till diskret
+händelsesimulering, grundläggande optimering och heuristiska
+metoder som simulated annealing, tabu-sökning och evolutionära
+algoritmer.;bjorn.landfeldt@eit.lth.se;4/;Nätverk och säkerhet;
+EDAN65;7,5;A;Kompilatorer;De grundläggande teorier och metoder som används inom
+kompilatorteknik är centrala för hela det datavetenskapliga
+ämnet och brett tillämpningsbara inom såväl forskning som
+mjukvaruutveckling.;Gorel.Hedin@cs.lth.se;1/;Programvara;
+EDAN70;7,5;A;Projekt i datavetenskap;Kursens syfte är att ge fördjupade kunskaper och färdigheter
+inom något ämnesområde inom datavetenskap.;studierektor@cs.lth.se;1/;Programvara;
+EDAN20;7,5;A;Språkteknologi;Under de senaste 15 åren har de språkteknologiska metoderna
+mognat avsevärt på grund av att mängden tillgänglig skriven och
+talad information har ökat kraftigt, vilket har lett till ökande
+behov av att behandla den automatiskt. Fastän de flesta
+datorsystem inte enbart ägnar sig åt språkbehandling så finns
+det numera många applikationer som i någon mån är
+"språkmedvetna" och har inbyggda språkteknologiska funktioner
+såsom stavnings- och grammatikkontroll, sökning och
+sammanfattning av information eller ett talbaserat
+dialoggränssnitt. Detta gör att fältet är av ökande betydelse
+för CS-ingenjörer.;Pierre.Nugues@cs.lth.se;1/;Programvara;
+EDAN01;7,5;A;Constraint-programmering;Kursens syfte är att studenterna skall lära sig en ny
+programmeringsparadigm som baseras på villkorsteknik över finita
+domäner och att de skall få praktisk erfarenhet av användning av
+dessa metoder inom lösning av kombinatoriska problem.;Krzysztof.Kuchcinski@cs.lth.se;2/;Programvara;
+FMAA25;7,5;G1;Diskret matematik;Syftet med kursen är att behandla några grundläggande delar
+av den diskreta matematiken, av betydelse inom datavetenskap,
+informationsteori, signalbehandling, fysik och många andra
+tekniska och naturvetenskapliga ämnen. Syftet är vidare att
+utveckla studenternas förmåga att lösa problem och att
+tillgodogöra sig matematisk text. Kursen ska också ge
+matematisk allmänbildning.;studierektor@math.lth.se;2/;Programvara;
+EDAP05;7,5;A;Programspråkskoncept;En mjukvaruutvecklare träffar på många olika programspråk
+under sin karriär.  Varje språk har sina egna funktionsbibliotek
+och terminologi, men dessa dras från ett fåtal fundamentala
+begrepp. Kursens syfte är att ge studenterna en överblick över
+och förtrogenhet med de gemensamma begreppen så att de kan
+bättre förstå och snabbare anpassa sig till nya programspråk. 
+Dessutom har kursen som syfte att ge studenterna förkunskaper som
+krävs för att arbeta med utveckling av nya programspråk, både
+allmänna och domänspecifika språk.
+;christoph.reichenbach@cs.lth.se;2/;Programvara;
+EDAN70;7,5;A;Projekt i datavetenskap;Kursens syfte är att ge fördjupade kunskaper och färdigheter
+inom något ämnesområde inom datavetenskap.;studierektor@cs.lth.se;2/;Programvara;
+EDAP01;7,5;A;Artificiell intelligens;Att ge en introduktion till flera delområden inom artificiell
+intelligens och att orientera om grundläggande metoder inom dessa
+områden. Att förmedla bredd och djup inom ämnet. At orientera om
+etiska konsekvenserna av AI-baserad teknologi.;Jacek.Malec@cs.lth.se;3/;Programvara;
+FMAF35;6;G2;Linjär och kombinatorisk optimering;Inom teknik, naturvetenskap och ekonomi uppträder allt oftare
+linjära och kombinatoriska optimeringsproblem. Det mest kända
+exemplet är linjär programmering, där den s.k.
+simplexmetoden varit av ovärderlig betydelse inom
+industrin sedan dess upptäckt i mitten av 1900-talet. Andra
+viktiga problem, exempelvis för effektiv databearbetning,
+innehåller variabler som är diskreta, till exempel heltal. I
+samband med dessa har kombinatoriska metoder fått en kraftigt
+ökad betydelse. Kursens syfte är att studenterna skall få
+kännedom om problem i linjär och kombinatorisk optimering som är
+viktiga inom tillämpningarna, och kunskap om matematiska metoder
+för deras lösning. Syftet är vidare att få studenten att
+utveckla sin förmåga till problemlösning, både med och utan
+dator.;Studierektor@math.lth.se;3/;Programvara;
+EDAN70;7,5;A;Projekt i datavetenskap;Kursens syfte är att ge fördjupade kunskaper och färdigheter
+inom något ämnesområde inom datavetenskap.;studierektor@cs.lth.se;3/;Programvara;
+EDAF50;7,5;G2;C++ - programmering;Kursen ger ingående kunskaper om C++, som är ett viktigt
+programspråk med många användningsområden. Särskilt betonas de
+språkkonstruktioner som gör att C++ är ett mera avancerat, och
+samtidigt mera komplicerat, programspråk än Java.;dl_studierektor@cs.lth.se;3/4/;Programvara;
+EDAF75;7,5;G2;Databasteknik;Kursen ger grundläggande teoretiska och praktiska kunskaper om
+databassystem och deras organisation. Tonvikten läggs på
+relationsdatabaser.;christian.soderberg@cs.lth.se;3/4/;Programvara;
+EDAF15;5;G2;Algoritmimplementering;Kursens huvudsyfte är att studenterna ska lära sig en metodik
+för att hitta en fördelaktig version av en algoritm och att
+maximera prestanda vid implementering av denna. För att nå detta
+huvudsyfte är två andra syften med kursen att studenterna ska ha
+kunskaper dels (1) om programspråket ISO C11 med fokus på vilka
+språkkonstruktioner som ofta blir effektiva och/eller påverkar
+portabilitet, och dels (2) om modern datorarkitektur, ur
+programmerarens synvinkel, med fokus på mikroprocessorer och
+cacheminnen.;jonas.skeppstedt@cs.lth.se;4/;Programvara;
+EDAA25;3;G1;C-programmering;Kursens syfte är att studenterna ska lära sig skriva program i
+språket C.;jonas.skeppstedt@cs.lth.se;4/;Programvara;
+FMAA25;7,5;G1;Diskret matematik;Syftet med kursen är att behandla några grundläggande delar
+av den diskreta matematiken, av betydelse inom datavetenskap,
+informationsteori, signalbehandling, fysik och många andra
+tekniska och naturvetenskapliga ämnen. Syftet är vidare att
+utveckla studenternas förmåga att lösa problem och att
+tillgodogöra sig matematisk text. Kursen ska också ge
+matematisk allmänbildning.;studierektor@math.lth.se;4/;Programvara;
+EDAN70;7,5;A;Projekt i datavetenskap;Kursens syfte är att ge fördjupade kunskaper och färdigheter
+inom något ämnesområde inom datavetenskap.;studierektor@cs.lth.se;4/;Programvara;
+EDAN26;7,5;A;Multicoreprogrammering;Kursens syfte är att studenterna ska lära sig att implementera
+en algoritm så effektivt som möjligt på en given multicoredator,
+med fokus på multiprocessorer med delat minne. Ett annat syfte är
+att få insikt om fördelar och nackdelar med olika språk för
+multicore programmering, såsom Java, Scala, C samt OpenMP.
+Studenterna ska även få förståelse för låsningsfria
+algoritmer och datastrukturer.;jonas.skeppstedt@cs.lth.se;1/;Programvara;
+MIOA12;6;G1;Industriell ekonomi, allmän kurs;Kursens syfte är att ge en allmän ekonomisk översikt.
+Studenterna ska utgående från ett ekonomiskt perspektiv få
+förståelse för hur olika delsystem i företaget samverkar.
+Kursen avser att ge grundläggande förmåga att förstå och
+använda de ekonomiska och affärsmässiga begreppen. Även de
+grundläggande modellerna som används i dessa sammanhang ingår i
+kursen. Utgående från dessa baskunskaper ska studenterna göra
+bedömningar med hänsyn till den helhet företaget utgör.
+Speciellt betonas de baskunskaper i industriell ekonomi som kommer
+att vara nödvändiga i en civilingenjörs yrkesverksamhet.;Mona.Becker@iml.lth.se;1/;Software engineering;
+MAMN25;7,5;A;Interaktionsdesign;Kursen syftar till att ge förståelse för grundläggande
+tekniker inom interaktionsdesign, samt förmåga att utforma
+interaktiva produkter och system, med hänsyn till olika
+intressenters behov och villkor. Kunskap i interaktionsdesign
+bidrar till en hållbar utveckling av och attityd till samspelet
+mellan människa och teknik i samhället.;johanna.persson@design.lth.se;1/;Software engineering;
+ETSN05;7,5;A;Programvaruutveckling för stora system;Kursens syfte är att ge studenten grundläggande kunskaper i
+projektledningsprinciper och utvecklingsprocesser samt de centrala
+begreppen kring projektbaserad storskalig utveckling av system med
+betydande andel programvara. Syftet är också att ge studenten
+erfarenheter kring de problem som uppstår i stora projekt, där
+många involverade aktörer och parallellt arbete skapar
+situationer som måste hanteras.;studierektor@cs.lth.se;1/;Software engineering;
+EITF05;4;G2;Webbsäkerhet;Kursen ska ge studenten kunskaper om de säkerhetsproblem och
+lösningar som relaterar till webbaserade tekniker, samt
+fördjupade kunskaper inom ett par områden.;paul.stankovski@eit.lth.se;1/;Software engineering;
+EDAN01;7,5;A;Constraint-programmering;Kursens syfte är att studenterna skall lära sig en ny
+programmeringsparadigm som baseras på villkorsteknik över finita
+domäner och att de skall få praktisk erfarenhet av användning av
+dessa metoder inom lösning av kombinatoriska problem.;Krzysztof.Kuchcinski@cs.lth.se;2/;Software engineering;
+MIOA12;6;G1;Industriell ekonomi, allmän kurs;Kursens syfte är att ge en allmän ekonomisk översikt.
+Studenterna ska utgående från ett ekonomiskt perspektiv få
+förståelse för hur olika delsystem i företaget samverkar.
+Kursen avser att ge grundläggande förmåga att förstå och
+använda de ekonomiska och affärsmässiga begreppen. Även de
+grundläggande modellerna som används i dessa sammanhang ingår i
+kursen. Utgående från dessa baskunskaper ska studenterna göra
+bedömningar med hänsyn till den helhet företaget utgör.
+Speciellt betonas de baskunskaper i industriell ekonomi som kommer
+att vara nödvändiga i en civilingenjörs yrkesverksamhet.;Mona.Becker@iml.lth.se;2/;Software engineering;
+EDAN10;7,5;A;Konfigurationshantering;Att förklara de grundläggande begreppen och principerna i
+konfigurationshantering. Att experimentera med specifika tekniker
+och mekanismer i existerande system för konfigurationshantering.
+Att ge förståelse för hur en metod för konfigurationshantering
+byggs upp av hanteringsprocesser, verktyg och mänskliga roller.
+Att visa hur konfigurationshantering stödjer andra delar av
+utvecklingsprocessen för programvara.;Lars.Bendix@cs.lth.se;2/;Software engineering;
+ETSN20;7,5;A;Programvarutestning;Kursens syfte är att ge studenten grundläggande och
+fördjupade kunskaper i inom programvarutestning i storskalig
+utveckling av system med betydande andel programvara. Kursen syftar
+till teoretisk kunskapsinhämtning och praktisk tillämpning.
+Kursen syftar också till att lära studenten att söka och
+värdera kunskap vid forskningsfronten inom testområdet.;Per.Runeson@cs.lth.se;2/;Software engineering;
+EDAN80;9;A;Coachning av programvaruteam;Många civilingenjörer hamnar under sin karriär i ledande
+positioner av olika slag. Syftet med kursen är att ge kunskaper om
+och praktisk erfarenhet av hur man leder och coachar
+programvaruteam. Kursen ger också en fördjupning inom principer
+för agil programvaruutveckling.;Lars.Bendix@cs.lth.se;2/3/;Software engineering;
+EITP20;7,5;A;Konstruktion av säkra system;Kursen syftar till att ge studenten insikt i hur man konstruerar
+nya mjuk- och hårdvarusystem med hänsyn till säkerhetsbehov och
+risker gällande hackerattacker. Kursen ämnar ge förståelse för
+hela processen från krav till designval och analys av ett
+säkerhetskritiskt datorsystem.;christian.gehrmann@eit.lth.se;3/;Software engineering;
+ETSN15;7,5;A;Kravhantering;Kursens syfte är att ge studenten grundläggande och
+fördjupade kunskaper och färdigheter inom kravhantering i
+storskalig utveckling av system med betydande andel programvara.
+Kursen ger både teoretisk analysförmåga inom ämnet och praktisk
+tillämpning av metoder och tekniker för kravhantering. Kursen ger
+träning i att läsa vetenskapliga artiklar i ämnet.;bjorn.regnell@cs.lth.se;3/;Software engineering;
+EDAF75;7,5;G2;Databasteknik;Kursen ger grundläggande teoretiska och praktiska kunskaper om
+databassystem och deras organisation. Tonvikten läggs på
+relationsdatabaser.;christian.soderberg@cs.lth.se;3/4/;Software engineering;
+FRTN01;10;A;Realtidssystem;Syftet med kursen är att teknologen skall lära sig hur man
+designar och implementerar datorbaserade reglersystem.;karl-erik.arzen@control.lth.se;3/4/;Software engineering;
+MIOF20;6;G2;Företagsorganisation;Kursen syftar till att analysera och förstå främst
+industriella och teknikbaserade företags strategiska position och
+strategiska val och hur dessa kan leda till konkurrensfördelar.
+Vidare är syftet att förstå den strategiska planeringsprocessen,
+hur denna omsätts i handling och att kritiskt granska ett
+företags strategi utifrån intressentperspektiv.  Kursen
+behandlar ej frågor om arbetsorganisation. Dessa frågor behandlas
+i separat kurs;ola.alexanderson@iml.lth.se;4/;Software engineering;
+MAMF50;7,5;G2;Användbarhetsutvärdering;Kunskap och förståelse
+För godkänd kurs skall studenten;Joakim.Eriksson@design.lth.se;1/;Software engineering;
+EITG05;7,5;G2;Digital kommunikation;Kursens syfte är att ge grundläggande kunskaper om principer,
+begrepp,
+funktion, prestanda och begränsningar för digitala
+kommunikationssystem.;michael.lentmaier@eit.lth.se;1/;System, signaler och reglering;
+FRTN10;7,5;A;Flervariabel reglering;Att ge kunskap om de grundläggande principerna för reglering
+av system med flera insignaler och utsignaler. Kursen skall ge
+insikt om vilka fundamentala begränsningar som finns och hur man
+kan använda matematisk optimering som ett designverktyg. Kursen
+behandlar linjära tidskontinuerliga system.;anton.cervin@control.lth.se;1/;System, signaler och reglering;
+EITN60;7,5;A;Optimal och adaptiv signalbehandling;Kursen ger grundläggande kunskaper i statistisk
+signalbehandling och behandlar teorin kring optimala metoder och
+hur dessa kan tillämpas. Kursen ger lösningsmetodiker för
+problem inom signalbehandling där system behöver ställa in sig
+själv och kunna följa förändringar i sin omgivning. Studenten
+skall ges tillräckliga insikter om teori och handhavande för att
+självständigt kunna formulera det matematiska problemet, lösa
+det och implementera lösningen för användning med verkliga
+signaler.;frida.sandberg@bme.lth.se;1/;System, signaler och reglering;
+FMSF10;7,5;G2;Stationära stokastiska processer;Studenten ska tillägna sig en verktygslåda med begrepp och
+modeller för beskrivning och hantering av stationära stokastiska
+processer inom många olika områden, t.ex.
+signalbehandling, reglerteknik, informationsteori, ekonomi,
+biologi, kemi, medicin. De matematisk-statistiska momenten
+illustreras därför genom rikligt med exempel från olika
+tillämpningsområden.;studierektor@matstat.lu.se;1/;System, signaler och reglering;
+FMAN70;6;A;Matristeori;Kursens främsta syfte är att ge kännedom om begrepp och
+metoder från matristeori och linjär algebra som är viktiga för
+tillämpningar inom ett stort antal tekniska,
+naturvetenskapliga och ekonomiska ämnen, samt förtrogenhet med
+deras användning. Därutöver ska kursen allmänt utveckla
+studentens förmåga att tillägna sig och kommunicera matematisk
+teori och att lösa problem. Dessutom ska kursen stärka
+studenternas färdighet i matematikprogrammering.;Studierektor@math.lth.se;1/2/;System, signaler och reglering;
+ETTN01;7,5;A;Digital kommunikation, fortsättningskurs;Kursens syfte är att ge mycket goda kunskaper i avancerade
+metoder för digital kommunikation. Kursen ger en bredd och ett
+djup som gör att många av de idag förekommande metoderna samt en
+stor del av morgondagens kan förstås.;fredrik.rusek@eit.lth.se;2/;System, signaler och reglering;
+FMSN45;7,5;A;Matematisk statistik, tidsserieanalys;Praktisk och teoretisk kunskap i modellering, skattning och
+validering, prediktion och interpolation av tidsdiskreta dynamiska
+stokastiska system, i huvudsak linjära system. Kursen ger också
+en grund för vidare studier i tidsseriesystem, t.ex. Finansiell
+statistik och Olinjära tidsserier.;studierektor@matstat.lu.se;2/;System, signaler och reglering;
+FRTN40;7,5;A;Projekt i reglerteknik;Syftet med kursen är att befästa och utveckla studentens
+reglerteknikkunskaper i form av ett praktiskt projekt. Projektet
+innehåller ett flertal av de typiska momenten i ett reglertekniskt
+projekt: modellering, identifiering, analys, syntes och
+datorimplementering.;kristian.soltesz@control.lth.se;2/;System, signaler och reglering;
+BMEN15;7,5;A;Signalseparation - oberoende komponenter;Kursen ger grundläggande kunskaper i statistisk
+signalbehandling och behandlar teorin kring oberoende och
+principiella komponenter samt hur dessa kan tillämpas inom
+området signalseparation. Det traditionella sättet att analysera,
+filtrera, komprimera och separera en kombination av signaler genom
+andra ordningens statistik (e.g. korrelationsbaserade metoder)
+utökas till att innehålla högre ordningens statistik (e.g.
+högre än andra ordningens moment). Detta leder till konceptet
+oberoende komponenter, i kontrast till okorrelerade
+komponenter.;frida.sandberg@bme.lth.se;2/;System, signaler och reglering;
+BMEN20;7,5;A;Projektkurs i signalbehandling – från idé till app;Kursen syftar till att ge kunskap om implementering av
+signalbehandlingsalgoritmer i mobila plattformar. Vidare syftar
+kursen till att belysa de problem som uppstår vid implementering i
+realtid och att utvärdera de prestanda som uppnås med
+implementeringarna.;frida.sandberg@bme.lth.se;3/;System, signaler och reglering;
+FRTN15;7,5;A;Prediktiv reglering;Avancerade kunskaper om modellbaserad design av reglersystem
+omfattande prediktiva, adaptiva och läraktiga algoritmer för
+styrning av tidsvariabla och ofullständigt kända processer med
+störningar inkl. stabilitet och växelverkan mellan identifieing
+och reglering.;rolf.johansson@control.lth.se;3/4/;System, signaler och reglering;
+FRTN01;10;A;Realtidssystem;Syftet med kursen är att teknologen skall lära sig hur man
+designar och implementerar datorbaserade reglersystem.;karl-erik.arzen@control.lth.se;3/4/;System, signaler och reglering;
+ETIF10;7,5;G2;Signalbehandling - design och implementering;Kursen ger lösningar till problem inom signalbehandling där
+design av filter, filterbankar och snabba algoritmer för
+implementering efterfrågas. Kursen ger grunderna i wavelet-teori
+och pekar på olika tillämpningar där waveletanalys är ett
+kraftfullt verktyg. Kursen ger en översikt på tillämpningar där
+dessa lösningar används. Studenten skall ges tillräckliga
+insikter om teori och handhavande för att självständigt kunna
+formulera det matematiska problemet, lösa det och implementera
+lösningen för användning med verkliga signaler.;leif.sornmo@bme.lth.se;4/;System, signaler och reglering;
+FRTN35;7,5;A;Systemidentifiering;Kursen syftar till att ge avancerade kunskaper och färdigheter
+i matematisk modellering utgående från mätdata med val av
+strukturell modell, parameterskattning, modellvalidering,
+prediktion, simulering och reglering.;rolf.johansson@control.lth.se;1/2/;System, signaler och reglering;
+FMAA60;7,5;G1;Introduktion till reell analys;Att ge en komplettering av kursen i endimensionell analys med
+teori och synsätt som inte ryms inom den vanliga kursen. Kursen
+vänder sig speciellt till nybörjarstudenter som har tidigare
+kurser motsvarande delkurs B1 av Endimensionell analys.
+Räknemässigt nås inte några nya resultat förutom några
+fixpunktssatser, men många av de metoder och mer abstrakta
+synsätt som införs för att genomföra bevis som utelämnas i den
+vanliga kursen gör det lättare att se mönster och analogier i
+senare kurser. De nya tänkesätten och begreppen ger studenten
+bättre förmåga att kreativt angripa nya problem.;studierektor@math.lth.se;1/;Valfria kurser - D;
+FMNN25;7,5;A;Avancerad kurs i numeriska algoritmer med Python/SciPy;Kursen är tänkt som ett algoritmorienterat komplement till de
+mer på metodanalys inriktade grund- och specialkurserna i
+numerisk analys. Den betonar kopplingen mellan komplexa numeriska
+algoritmer och moderna programmeringsspråk.;claus.fuhrer@na.lu.se;1/;Valfria kurser - D;
+EDAN90;7,5;A;Avancerat projekt i datavetenskap;Kursens syfte är att träna på ett vetenskapligt arbetssätt
+för att ge fördjupade kunskaper och färdigheter inom något
+ämnesområde inom datavetenskap.;studierektor@cs.lth.se;1/;Valfria kurser - D;
+IYT000;15;G2;Ingenjörsinriktad yrkesträning;Kursen syftar till att ge studenten en bild av ingenjörens
+professionella förutsättningar och möjligheter inom den del av
+arbetslivet som vald organisation/arbetsplats representerar.
+Praktiken ska ge insikt om olika möjligheter och förutsättningar
+för kunskapers tillämpbarhet. Arbetsuppgifterna ska ha en så
+hög komplexitetsgrad att studenten får möjlighet att omsätta
+sina teoretiska kunskaper. Hänsyn ska tas till arbetsuppgifternas
+relevans för utbildningen. Kursen ska ge en översiktlig
+förståelse för de krav och färdigheter som ställs i yrkeslivet
+och som inte är av strikt teknisk karaktär, men ofta direkt
+kopplade till den yrkesverksamma ingenjören. Den studerande skall
+under praktikperioden arbeta under de villkor och förhållanden
+som råder på den aktuella arbetsplatsen och ha avgränsade
+arbetsuppgifter. Under praktikperioden ska studenten även utveckla
+sin förmåga att fungera som en bidragande medarbetare.;;1/;Valfria kurser - D;
+EITF50;7,5;G2;Introduktion till trådlösa system;Syftet med kursen är att ge en god allmänbildning i
+högfrekvenstillämpningar, speciellt sådana som förekommer vid
+radiokommunikation. Grunden läggs utan att tränga in i
+elektroniken eller att fördjupa sig i konstruktionsdetaljer. De
+olika delarna behandlas som block vilka definieras av sina
+fysikaliska egenskaper. Detta ger en förståelse för t.ex.
+radiomottagarens eller mobiltelefonens uppbyggnad och kunskap om
+vilka krav som ställs på de ingående kretsarna. Därigenom är
+kursen även en nödvändig grund för den som senare vill
+specialisera sig till högfrekvens- eller radiokonstruktör.;johan.wernehag@eit.lth.se;1/;Valfria kurser - D;
+MAMN40;7,5;A;Arbete-människa-teknik, projekt;Kursen syftar till att studenten skall få möjlighet till att
+fördjupa sig i ett särskilt ämne och inom ämnesområdet
+tillägna sig en fördjupad förmåga att identifiera och lösa
+problem med utgångspunkt från vetenskapliga rön.;gunter.alce@design.lth.se;1/2/;Valfria kurser - D;
+FMIN25;7,5;A;Energisystemanalys: energi, miljö och naturresurser;Kursen skall ge en förståelse för de komplexa sambanden
+mellan energi- och resursanvändning och storskaliga miljöproblem.
+Ett kritiskt förhållningssätt är centralt för förmågan att
+värdera olika strategier för en hållbar energiförsörjning ur
+olika perspektiv. Kursen ska utgå ifrån tidigare inhämtade
+kunskaper och relatera dessa till hållbarhetsproblematiken.;per.svenningsson@miljo.lth.se;1/2/;Valfria kurser - D;
+FMAN15;7,5;A;Olinjära dynamiska system;Att ge kännedom om och förtrogenhet med begrepp och metoder
+från teorin för dynamiska system som är viktiga för
+tillämpningar inom i stort sett alla naturvetenskapliga och
+tekniska ämnen. Därutöver skall kursen allmänt utveckla
+studentens förmåga att tillägna sig och kommunicera matematisk
+teori, att uttrycka naturvetenskapliga och tekniska problem i
+matematiska termer och att lösa problem med hjälp av teorin för
+dynamiska system.;studierektor@math.lth.se;1/2/;Valfria kurser - D;
+EIEN30;7,5;A;Projekt i industriell elektroteknik och automation;Projektkursen syftar till ett självständigt fördjupat studium
+inom något av IEA:s ämnesområden.;jorgen.svensson@iea.lth.se;1/2/;Valfria kurser - D;
+TNSF05;7,5;G2;Rehabiliteringsteknik;Syftet med kursen är att öppna ögonen för teknikens
+möjligheter för människor som har funktionsnedsättningar för
+att öka självständighet, livskvalitet och möjlighet att delta i
+samhället. Kunskaper om människan och förmågan att sätta sig
+in i olika människors livssituation kommer att vara viktiga
+egenskaper hos en civilingenjör för att kunna delta i samhällets
+strävan mot mångfald.;bitte.rydeman@certec.lth.se;1/2/;Valfria kurser - D;
+EDAN90;7,5;A;Avancerat projekt i datavetenskap;Kursens syfte är att träna på ett vetenskapligt arbetssätt
+för att ge fördjupade kunskaper och färdigheter inom något
+ämnesområde inom datavetenskap.;studierektor@cs.lth.se;2/;Valfria kurser - D;
+IYT000;15;G2;Ingenjörsinriktad yrkesträning;Kursen syftar till att ge studenten en bild av ingenjörens
+professionella förutsättningar och möjligheter inom den del av
+arbetslivet som vald organisation/arbetsplats representerar.
+Praktiken ska ge insikt om olika möjligheter och förutsättningar
+för kunskapers tillämpbarhet. Arbetsuppgifterna ska ha en så
+hög komplexitetsgrad att studenten får möjlighet att omsätta
+sina teoretiska kunskaper. Hänsyn ska tas till arbetsuppgifternas
+relevans för utbildningen. Kursen ska ge en översiktlig
+förståelse för de krav och färdigheter som ställs i yrkeslivet
+och som inte är av strikt teknisk karaktär, men ofta direkt
+kopplade till den yrkesverksamma ingenjören. Den studerande skall
+under praktikperioden arbeta under de villkor och förhållanden
+som råder på den aktuella arbetsplatsen och ha avgränsade
+arbetsuppgifter. Under praktikperioden ska studenten även utveckla
+sin förmåga att fungera som en bidragande medarbetare.;;2/;Valfria kurser - D;
+FMAN30;7,5;A;Medicinsk bildanalys;Kursens huvudsyfte är att ge en grundläggande introduktion
+till teori och matematiska metoder inom medicinsk bildanalys, i
+tillräcklig omfattning för att göra det möjligt för studenten
+att ta sig an  medicinska bildbehandlingsproblem. Vidare är
+syftet att få studenten att utveckla sin förmåga till
+problemlösning, både med och utan dator. Ett ytterligare syfte
+är att förbereda studenten för fortsatta studier och forskning i
+gränslandet mellan medicin och teknik.;studierektor@math.lth.se;2/;Valfria kurser - D;
+FRTN05;7,5;A;Olinjär reglering och servosystem;Syftet med kursen är att lära sig känna igen viktiga
+olinjära reglerproblem, att behärska de viktigaste
+analysmetoderna för olinjära system samt att använda några
+praktiska verktyg för olinjär design.;anders.rantzer@control.lth.se;2/;Valfria kurser - D;
+FMAN35;3;A;Projekt i matematik;Kursens syfte är dels att ge den matematikintresserade
+teknologen möjlighet att självständigt utvidga sina matematiska
+kunskaper och dels att ge träning i muntlig och skriftlig
+kommunikation.;Studierektor@math.lth.se;2/;Valfria kurser - D;
+TNSN01;7,5;A;Servicerobotik;Kursens syfte är att ge kunskaper i servicerobotik och
+exemplifiera detta med experimentella arbeten som visar på dess
+uppbyggnad och tillämpningar.;hakan.eftring@certec.lth.se;2/;Valfria kurser - D;
+EIEF45;7,5;G2;Automation;Automation är ingenjörskonsten att utnyttja mätning och
+information i realtid för att få material- och energiflöden att
+fungera på bästa sätt. Kursen ger också perspektiv på
+hållbarhet och samspelet mellan energi, vatten och livsmedel
+globalt. Syftet med kursen är att ge en överblick av de olika
+komponenter som ingår i ett industriellt styrsystem och hur dessa
+fungerar och interagerar med varandra. Kursen syftar även till att
+ge en grundläggande kunskap avseende de verktyg och metoder som
+används för att realisera, analysera och utvärdera industriella
+styrsystem. I kursen kombinerar vi kunskaper från skilda ämnen
+som t.ex. reglerteknik, matematisk statistik, mätteknik och
+datorteknik samt visar hur automation kan se ut i olika
+industriella verksamheter.;ulf.jeppsson@iea.lth.se;3/;Valfria kurser - D;
+EDAN90;7,5;A;Avancerat projekt i datavetenskap;Kursens syfte är att träna på ett vetenskapligt arbetssätt
+för att ge fördjupade kunskaper och färdigheter inom något
+ämnesområde inom datavetenskap.;studierektor@cs.lth.se;3/;Valfria kurser - D;
+MIOA01;9;G1;Industriell ekonomi, allmän kurs;Kursens syfte är att ge en allmän ekonomisk översikt.
+Studenterna ska utgående från ett ekonomiskt perspektiv få
+förståelse för hur olika delsystem i företaget samverkar.
+Kursen avser att ge grundläggande förmåga att förstå och
+använda de ekonomiska och affärsmässiga begreppen. Även de
+grundläggande modellerna som används i dessa sammanhang ingår i
+kursen. Utgående från dessa baskunskaper ska studenterna göra
+bedömningar med hänsyn till den helhet företaget utgör.
+Speciellt betonas de baskunskaper i industriell ekonomi som kommer
+att vara nödvändiga i en civilingenjörs yrkesverksamhet.;Mona.Becker@iml.lth.se;3/;Valfria kurser - D;
+MIOF25;6;G2;Industriell ekonomi, fortsättningskurs;Internt i företag finns styrsystem för planering och
+uppföljning av mål på olika nivåer och i olika dimensioner. Det
+ekonomiska systemet som är centralt i denna kurs består av
+internredovisningssystemet, system för produktkalkylering,
+budgetsystemet och system för investeringsstyrning. Den
+grundläggande ekonomikursen ger främst en begreppsapparat samt
+vissa grundläggande principer för behandling av ekonomiska
+problem. Fortsättningskursen skall på denna grund vara en
+problemorienterad fördjupning som skall ge fördjupade kunskaper
+om det ekonomiska styrsystemet i komplicerade och verklighetsnära
+företagssituationer med speciell inriktning på teknikerns
+arbetsområde.;Peter.Berling@iml.lth.se;3/;Valfria kurser - D;
+IYT000;15;G2;Ingenjörsinriktad yrkesträning;Kursen syftar till att ge studenten en bild av ingenjörens
+professionella förutsättningar och möjligheter inom den del av
+arbetslivet som vald organisation/arbetsplats representerar.
+Praktiken ska ge insikt om olika möjligheter och förutsättningar
+för kunskapers tillämpbarhet. Arbetsuppgifterna ska ha en så
+hög komplexitetsgrad att studenten får möjlighet att omsätta
+sina teoretiska kunskaper. Hänsyn ska tas till arbetsuppgifternas
+relevans för utbildningen. Kursen ska ge en översiktlig
+förståelse för de krav och färdigheter som ställs i yrkeslivet
+och som inte är av strikt teknisk karaktär, men ofta direkt
+kopplade till den yrkesverksamma ingenjören. Den studerande skall
+under praktikperioden arbeta under de villkor och förhållanden
+som råder på den aktuella arbetsplatsen och ha avgränsade
+arbetsuppgifter. Under praktikperioden ska studenten även utveckla
+sin förmåga att fungera som en bidragande medarbetare.;;3/;Valfria kurser - D;
+FMAN65;6;A;Matematiska strukturer;Förutom ren kunskapsförmedling syftar kursen till att ge
+övning i bevisföring och att framhäva möjligheterna till en mer
+abstrakt framställning av matematiska begrepp och deras samband.
+Avsikten är att genom ett övergripande synsätt belysa de
+teoretiska grunderna för den matematik som ingått i
+grundkurserna.;Studierektor@math.lth.se;3/;Valfria kurser - D;
+FMSN50;7,5;A;Monte Carlo-baserade statistiska metoder;Kursens syfte är att ge studenten verktyg och kunskap för att
+hantera komplicerade statistiska problem och modeller. Kursens mål
+är att studenten skall tillgodogöra sig moderna datorintensiva
+statistiska metoder och använda dessa för att skatta storheter
+och parametrar i de komplicerade modeller som uppträder inom olika
+tillämpningsområden (t.ex. ekonomi, signalbehandling, biologi,
+klimat och miljöstatistik). Vidare skall studenten kunna bedöma
+osäkerheten hos dessa skattningar. Kursen syftar främst till att
+utöka den mängd statistiska problem som kan lösas av
+studenten.;studierektor@matstat.lu.se;3/;Valfria kurser - D;
+ETIA10;7,5;G1;Patent och annan immaterialrätt;Ekonomierna i Europa, Nordamerika samt vissa stater i Ost-Asien
+har de senaste åren genomgått en förvandling från
+varuproducerande industriella ekonomier till kunskapsekonomier
+baserade på bioteknik, informationsteknologi, upplevelseindustri
+samt design, där kunskap i många avseenden har ersatt varor som
+produkter i en globaliserad ekonomi. Det legala skyddet för att
+säkerställa en ensamrätt till dessa kunskaper när de omsätts i
+produkter och tjänster benämns immaterialrätt (eller på
+engelska, Intellectual Property Rights). Kunskaper i
+immaterialrätt, och dess omfattning och tillämpning, är
+förutsättningen för att upphovsmannen och företaget ska kunna
+dra ekonomisk nytta av ett specifikt kunnande.;fredrik.edman@luis.lu.se;3/;Valfria kurser - D;
+FRTF15;3;G2;Reglerteori;Kursens syfte att ge en djupare kunskap och förståelse för
+den matematiska teori som ligger bakom många av de begrepp och
+metoder som lärs ut i kursen Reglerteknik AK. Kursens syfte är
+också att ge fördjupad kunskap i matematisk kommunikation.;bo.bernhardsson@control.lth.se;3/;Valfria kurser - D;
+FMNN05;7,5;A;Simuleringsverktyg;Simuleringsteknik är ett ämne som kräver såväl
+erfarenhet av modellering som goda kunskaper i numerisk analys
+samt programmeringsförmåga. Kursens syfte är att ge studenter i
+en sen fas av utbildningen möjligheten att praktiskt arbeta i små
+arbetslag med industrinära beräkningsproblem inom modellering av
+komplexa mekaniska system. Studenterna får i kursen se hur
+matematiska  metoder kan återfinnas på olika nivåer i
+industrinära simuleringsverktyg. I synnerhet kommer numeriska
+metoder för ordinära differentialekvationer, med
+diskontinuiteter och/eller algebraiska bivillkor, samt numeriska
+metoder för att lösa stora system av ickelinjära
+ekvationssystem att utgöra kursens ryggrad.;Studierektor@math.lth.se;3/;Valfria kurser - D;
+FMSN35;7,5;A;Stationär och icke-stationär spektralanalys;Kursen riktar sig till den som vill bredda och fördjupa sitt
+kunnande inom statistisk signalbehandling och utöka sin
+verktygslåda med mer avancerade tekniker. Den ligger i
+gränslandet mellan statistik och signalbehandling och bygger på
+de klassiska icke-parametriska metoder som är välkända och
+behandlas i, t.ex. Stationära stokastiska processer eller Optimal
+signalbehandling. Eftersom dessa metoder inte alltid räcker till
+behövs mer avancerade tekniker inom många tillämpningsområden,
+t.ex. inom kommunikation och medicin.;andreas.jakobsson@matstat.lu.se;3/;Valfria kurser - D;
+EXTG45;7,5;G2;Teknikstödd kommunikation;Kursens syfte är att ge förståelse för möjligheter och
+begränsningar som uppstår i kommunikationen där en ny teknik
+används.;jana.holsanova@lucs.lu.se;3/;Valfria kurser - D;
+EITN85;7,5;A;Trådlösa kanaler;Syftet med kursen är att ge en genomgripande genomgång av den
+trådlösa kanalens egenskaper. Detta inkluderar förståelse av
+underliggande fysiska utbredningsmekanismer, mätning av
+kanalegenskaper, metoder för att modellera kanalegenskaper, samt
+en grundläggande förståelse av hur dessa saker relaterar till
+olika aspekter av ett trådlöst system.;harsh.tataria@eit.lth.se;3/;Valfria kurser - D;
+EDAF90;7,5;G2;Webbprogrammering;Kursen ger kunskap om grundläggande tekniker bakom
+webbprogrammering. Kursen omfattar både kommunikation (http),
+programmeringsspråk (JavaScript) och exekveringsmiljö (DOM
+JavaScript runtime). Studenterna ska även få erfarenhet av en
+enkeltrådig asynkron exekveringsmiljö. Efter kursen ska
+studenterna kunna utveckla egna webbapplikationer. Fokus i kursen
+ligger på klientsidan.;Per.Andersson@cs.lth.se;3/;Valfria kurser - D;
+MAMN40;7,5;A;Arbete-människa-teknik, projekt;Kursen syftar till att studenten skall få möjlighet till att
+fördjupa sig i ett särskilt ämne och inom ämnesområdet
+tillägna sig en fördjupad förmåga att identifiera och lösa
+problem med utgångspunkt från vetenskapliga rön.;gunter.alce@design.lth.se;3/4/;Valfria kurser - D;
+MAMF21;7,5;G2;Arbetsmiljö, hälsa och säkerhet;Kursen syftar till att studenten:;Christina.isaxon@design.lth.se;3/4/;Valfria kurser - D;
+FMIN20;7,5;A;Energisystemanalys: Förnybara energikällor;Efter genomgången kurs ska den studerande ha förvärvat
+förståelse för de möjligheter och begränsningar som råder
+för bruket av förnybara energikällor, samt kunna värdera olika
+system för förnybar energi ur olika perspektiv och med ett
+kritiskt förhållningssätt. Kursen ska utgå ifrån tidigare
+inhämtade kunskaper och relatera dessa till
+hållbarhetsproblematiken.;per.svenningsson@miljo.lth.se;3/4/;Valfria kurser - D;
+FMAN55;7,5;A;Kontinuerliga system;Med ett kontinuerligt system menas inom ingenjörsvetenskaperna
+ett system vars tillståndsrum beskrivs av en kontinuerlig familj
+av parametrar. Kontinuerliga system uppträder ymnigt i fysik och
+andra naturvetenskaper, inom mekanik-, elektro- och andra
+teknikvetenskaper, inom ekonomiska vetenskaper etc. Kontinuerliga
+system leder för sin beskrivning i allmänhet till partiella
+differentialekvationer.;Studierektor@math.lth.se;3/4/;Valfria kurser - D;
+EIEN01;10;A;Mekatronik, industriell produktframtagning;Denna kurs har som målsättning att ge studenten kunskaper,
+färdigheter och erfarenheter från att delta i ett industribaserat
+mekatroniskt utvecklingsprojekt som drivs fram till en fungerande
+prototyp. Produktens principkonstruktion har tagits fram i
+kursen EIEF01 Tillämpad mekatronik. Arbetet utförs i en grupp
+där deltagarna bidrar med kompetens från flera olika
+ämnesområden.;gunnar.lindstedt@iea.lth.se;3/4/;Valfria kurser - D;
+EIEN30;7,5;A;Projekt i industriell elektroteknik och automation;Projektkursen syftar till ett självständigt fördjupat studium
+inom något av IEA:s ämnesområden.;jorgen.svensson@iea.lth.se;3/4/;Valfria kurser - D;
+EITA05;4,5;G1;Teknikhistoria;Syftet med kursen är att genom historiska exempel från teknik,
+samhällsvetenskap och naturvetenskap, ge en insikt om och
+förståelse för möjligheterna och begränsningarna i dagens och
+morgondagens teknikutveckling. Kursen kopplar också den tekniska
+utvecklingen till människans villkor och samhällets utveckling i
+vid bemärkelse och integrerar därigenom många vetenskaper.;kaan.bur@eit.lth.se;3/4/;Valfria kurser - D;
+TNSF10;7,5;G2;Universal design, teori och projekt;I ett samhälle för alla utformas produkter, tjänster och
+miljöer utifrån vetskapen att människor är olika och har olika
+förutsättningar, och att dessa för samma person varierar över
+tid och med olika situationer. Denna kurs är inriktad på
+universell utformning (Universal Design) som kan förklaras som
+design av produkter, tjänster och miljöer som är användbara
+för en så stor del av befolkningen som möjligt, utan att det
+krävs speciell anpassning.;hakan.eftring@certec.lth.se;3/4/;Valfria kurser - D;
+FMAN25;7,5;A;Variationskalkyl;Kursen syftar till att presentera grundläggande teori för, och
+användning av, variationskalkyl, dvs. optimeringsproblem för
+''funktioner av funktioner''. Ett klassiskt exempel är det
+isoperimetriska problemet: att bestämma den
+slutna kurva av given längd som innesluter maximal area. Många
+fysikaliska lagar kan formuleras som variationsprinciper,
+t ex lagen om ljusbrytning. Variationskalkylen är också en av
+hörnstenarna i den klassiska mekaniken och har många andra
+tekniska tillämpningar, t ex inom systemteori och optimal
+reglering.;studierektor@math.lth.se;3/4/;Valfria kurser - D;
+EIEN35;7,5;A;Automation för komplexa system;Syftet med kursen är att skapa förståelse för
+problemställningar som uppstår i stora och komplexa industriella
+automationssystem. Kursen ger också perspektiv på hållbarhet och
+samspelet mellan energi, vatten och livsmedel globalt. Den syftar
+även till att ge grundläggande kunskap om de verktyg och metoder
+som används för att realisera, analysera och utvärdera stora
+industriella automationssystem. Många av dagens industriella
+system innehåller ett mycket stort antal mätpunkter, regulatorer
+och ställdon. En stor processindustri kan ha mer än 200 000
+mätpunkter. Detta kräver stora datorsystem som kan hantera stora
+informationsmängder. Hur kan man på ett systematiskt sätt
+kondensera informationen från ett stort antal delprocesser? Kursen
+beskriver detta och analyserar hur man kan strukturera dessa stora
+system. Kursen syftar alltså primärt till att koordinera många
+delsystem så att den ”industriella orkestern” kan dirigeras
+rätt.;gunnar.lindstedt@iea.lth.se;4/;Valfria kurser - D;
+EDAN90;7,5;A;Avancerat projekt i datavetenskap;Kursens syfte är att träna på ett vetenskapligt arbetssätt
+för att ge fördjupade kunskaper och färdigheter inom något
+ämnesområde inom datavetenskap.;studierektor@cs.lth.se;4/;Valfria kurser - D;
+EITN75;7,5;A;Design av trådlösa system;Kursens syfte kan delas upp i tre komponenter:;anders_j.johansson@eit.lth.se;4/;Valfria kurser - D;
+FMAN90;7,5;A;Fördjupningskurs i valt område av matematiken;Kursens syfte är att ge den matematikintresserade teknologen
+möjlighet att utvidga sina kunskaper i en gren av matematiken som
+är relevant för tillämpningar eller modern forskning.;studierektor@math.lth.se;4/;Valfria kurser - D;
+FMSF65;7,5;G2;Försöksplanering;Detta är en grundkurs i planering av försök och analys av
+data från dessa försök. Den riktar sig till ingenjörer,
+fysiker, kemister och forskare från andra områden, såsom
+bioteknik och biologi. Kursen omfattar de typer av experiment som
+är vanliga inom industrin. Dess syfte är att lära ut hur man
+planerar, designar och genomför experiment på ett effektivt
+sätt och hur man analyserar resultatet för att dra objektiva
+slutsatser. Problemområden inom både design och statistisk analys
+diskuteras. Tillfällen att använda de principer som lärs ut i
+kursen dyker upp inom alla stadier av ingenjörsarbete och
+vetenskaplig forskning, inklusive teknologiutveckling, design och
+utveckling av nya produkter, processutveckling och förbättring
+av tillverkningsprocesser. Tillämpningar från olika områden
+inom ingenjörsvetenskaperna (t.ex. kemisk, maskin, elektro,
+material, industriell) förekommer under hela kursen.;studierektor@matstat.lu.se;4/;Valfria kurser - D;
+MIOF25;6;G2;Industriell ekonomi, fortsättningskurs;Internt i företag finns styrsystem för planering och
+uppföljning av mål på olika nivåer och i olika dimensioner. Det
+ekonomiska systemet som är centralt i denna kurs består av
+internredovisningssystemet, system för produktkalkylering,
+budgetsystemet och system för investeringsstyrning. Den
+grundläggande ekonomikursen ger främst en begreppsapparat samt
+vissa grundläggande principer för behandling av ekonomiska
+problem. Fortsättningskursen skall på denna grund vara en
+problemorienterad fördjupning som skall ge fördjupade kunskaper
+om det ekonomiska styrsystemet i komplicerade och verklighetsnära
+företagssituationer med speciell inriktning på teknikerns
+arbetsområde.;Peter.Berling@iml.lth.se;4/;Valfria kurser - D;
+KIIF01;7,5;G2;Industriellt miljöarbete;Baserat på tidigare förvärvade kunskaper i ett visst
+teknikområde ska studenten kunna identifiera och utvärdera
+förebyggande lösningar på miljöproblem med både tekniska och
+management-orienterade verktyg och metoder.;Hakan.Rodhe@iiiee.lu.se;4/;Valfria kurser - D;
+IYT000;15;G2;Ingenjörsinriktad yrkesträning;Kursen syftar till att ge studenten en bild av ingenjörens
+professionella förutsättningar och möjligheter inom den del av
+arbetslivet som vald organisation/arbetsplats representerar.
+Praktiken ska ge insikt om olika möjligheter och förutsättningar
+för kunskapers tillämpbarhet. Arbetsuppgifterna ska ha en så
+hög komplexitetsgrad att studenten får möjlighet att omsätta
+sina teoretiska kunskaper. Hänsyn ska tas till arbetsuppgifternas
+relevans för utbildningen. Kursen ska ge en översiktlig
+förståelse för de krav och färdigheter som ställs i yrkeslivet
+och som inte är av strikt teknisk karaktär, men ofta direkt
+kopplade till den yrkesverksamma ingenjören. Den studerande skall
+under praktikperioden arbeta under de villkor och förhållanden
+som råder på den aktuella arbetsplatsen och ha avgränsade
+arbetsuppgifter. Under praktikperioden ska studenten även utveckla
+sin förmåga att fungera som en bidragande medarbetare.;;4/;Valfria kurser - D;
+ESSF20;4,5;G2;Komponentfysik;Kursen ska ge studenten en insikt i vad som döljer sig under
+höljet på de vanligaste elektronikkomponenterna, som dioder och
+transistorer. Kursen introducerar hur dessa komponenter är
+uppbyggda och hur de fungerar.;Dan.Hessman@ftf.lth.se;4/;Valfria kurser - D;
+MAMN30;7,5;A;Ledarskap, arbetsorganisation och projektledning;Kursen avser att ge tillräckliga kunskaper och insikter i att
+framgångsrikt hantera de förutsättningar, krav och befogenheter
+som ställs på ledning och medarbetare i olika former av
+industriella arbetsorganisationer och projekt. Dessutom avser
+kursen att ge färdigheter i att motivera och tillämpa olika
+metoder och verktyg för planering, analys, kommunikation, ledning
+och utveckling av arbetsorganisationer och projekt. Kursen
+avser även att ge insikter i mänskliga förutsättningar hos
+ledning och medarbetare såsom drivkrafter, värderingar och
+attityder, vilket stödjer ett hållbart och innovativt
+hälsofrämjande ledarskap. Speciell vikt läggs vid forsknings-
+och utvecklingsprojekt.;Mikael.Blome@design.lth.se;4/;Valfria kurser - D;
+FMSN30;7,5;A;Linjär och logistisk regression;Regression handlar om att modellera hur en egenskap (längd,
+vikt, pris, koncentration, etc) samvarierar med en eller flera
+andra egenskaper (kön, boyta, omsättning, temperatur, etc).
+Linjär regression introduceras i grundkursen i matematisk
+statistik men här fyller vi på med, bl.a., "hur kontrollerar jag
+om modellen passar till data", "vad gör jag om den inte passar",
+"hur osäker är den" och "hur använder jag den för att dra
+slutsatser om verkligheten".;studierektor@matstat.lu.se;4/;Valfria kurser - D;
+BMEN01;7,5;A;Medicinsk signalbehandling;Kursen ger en översikt av metoder som är lämpliga för att
+lösa problem inom medicinsk signalbehandling. Studenten skall ges
+tillräckliga insikter om medicinska signalers ursprung och
+lämpliga analysmetoder för att självständigt kunna bedöma
+vilken metod som är lämplig att använda.;leif.sornmo@bme.lth.se;4/;Valfria kurser - D;
+EEMN01;7,5;A;Mikrosensorer;Mätteknik och sensorer kommer in inom i princip alla
+verksamhetsområden för en civilingenjör. Det kan t.ex. röra sig
+om detaljerade studier av signaler från nervceller i hjärnan,
+detektering av ljus i optiska fiber eller övervakning av
+tillverkningen i en processindustri. Andelen mikrosensorer ökar
+inom samhället, speciellt inom bilindustrin där det idag är
+standard med krocksensorer, tiltsensorer och tex
+däcktrycksensorer;martin.bengtsson@bme.lth.se;4/;Valfria kurser - D;
+FMAN35;3;A;Projekt i matematik;Kursens syfte är dels att ge den matematikintresserade
+teknologen möjlighet att självständigt utvidga sina matematiska
+kunskaper och dels att ge träning i muntlig och skriftlig
+kommunikation.;Studierektor@math.lth.se;4/;Valfria kurser - D;
+FMSN55;7,5;A;Statistisk modellering av extremvärden;Kursen syftar till att ge teoretisk kunskap i matematisk
+modellering av extrema händelser och diskuterar i detalj hur
+teorin kan tillämpas i praktiken. Olika tillvägagångssätt för
+modellering av extremvärden diskuteras och vägledning ges om hur
+modellerna kan anpassas till olika situationer i praktiken.
+Studenterna skall även lära sig om mer avancerade modeller för
+extremvärdesanalys, såsom extremvärden för icke-stationära
+processer.;nader@maths.lth.se;4/;Valfria kurser - D;
+ETTN15;7,5;A;Moderna trådlösa system - LTE och dess efterföljare;Kursen behandlar den senaste teknikutvecklingen inom
+trådlös kommunikation, inklusive 5g och LTE-system. Dessa system
+är högpresterande och representerar i flera
+avseenden "state-of-the-art". En central del av kursen är att ge
+detaljerad kunskap om de kommunikationsmetoder som används i
+nedlänk respektive upplänk som möjliggör dessa kraftiga
+prestandaökningar. I kursen ingår även trender för framtida
+systemlösningar. Kursens syfte är att ge goda kunskaper om
+principer, begrepp, funktion, prestanda och begränsningar för
+sådana system för mobil kommunikation.;buon_kiong.lau@eit.lth.se;1/;Valfria kurser - D;
+EITN10;7,5;A;Multipelantennsystem;Syftet med kursen är att ge en god inblick i området
+radiokommunikation med multipla antenner. Kursen startar med de
+teoretiska delarna av multipelantennsystem, närmare bestämt s.k.
+multiple-input multiple-output (MIMO) system, vilka kan ge stora
+kapacitetsvinster jämfört med konventionella kommunikationssystem
+med bara enstaka antenner. De teoretiska resultaten leder vidare
+till praktiska implementationsaspekter, för att skapa en
+förståelse även för dessa och hur systemen fungerar i
+praktiken.;fredrik.rusek@eit.lth.se;1/;Valfria kurser - D;
+EITN35;7,5;A;Projekt i elektro- och informationsteknik;Kursens syfte är att ge fördjupade kunskaper och färdigheter
+i något ämnesområde inom Elektro- och informationsteknik.;stefan.host@eit.lth.se;1/;Valfria kurser - D;
+BMEF10;7,5;G2;Sensorteknik;Sensorer får allt större betydelse i det moderna samhället.
+Exemplen är många där sensorer är en förutsättning för ökad
+säkerhet (t ex i bilar), minskad miljöpåverkan ( t ex styrning
+av processindustri, avgasrening i bilar), effektivare
+energianvändning (t ex klimatstyrning av inomhusmiljö).
+Ytterligare ett område där sensorer väntas få stor betydelse
+är Virtual Reality (t ex fjärroperationer inom medicin,
+datorspel, simulatorer).;johan.nilsson@bme.lth.se;1/;Valfria kurser - D;
+MION25;7,5;A;Teknologistrategier;Kursens mål är att skapa en djup kunskap av företags
+teknologistrategier i relation till dess affärsmässiga
+förutsättningar. Företagandet blir alltmer komplext och det
+ställs alltmer krav på att företagen fattar de rätta
+strategiska beslut  affärsmässiga och tekniska. För att på
+bästa vis förbereda teknologerna på denna utmanande komplexa
+miljö och i synnerhet den teknologiska utvecklingen i kombination
+med den affärsmässiga, syftar denna kurs till att ge teknologerna
+en bred bild av tekniska förändringsprocesser och dessas nära
+relation och betydelse för företagens affärsstrategier. Kursen
+fokuserar främst på det tidiga innovationsskedet i företag där
+höga krav på framsynthet är nödvändigt för att uppnå unika
+och varaktiga affärsmässiga konkurrensfördelar.;Carl-Johan.Asplund@iml.lth.se;1/;Valfria kurser - D;
+EITN21;7,5;A;Projekt i trådlös kommunikation;Syftet med kursen är att i projektform ge en sammanhängande
+bild av hur de olika komponenterna i ett trådlöst
+kommunikationssystem fungerar och samverkar. Studenten ska kunna
+simulera ett kommunikationssystem uppbyggt av delblock innefattande
+såväl det fysiska lagret som grundläggande kontrollmekanismer.
+Därigenom ska också en god förståelse skapas för hur man kan
+simulera prestanda och verifiera funktionen och prestanda hos
+kommunikationssystem.;fredrik.tufvesson@eit.lth.se;1/2/;Valfria kurser - D;
+EEMN10;7,5;A;Datorbaserade mätsystem;Automatiserad insamling av mätdata är av fundamental betydelse
+för test- och mätuppgifter i industri och forskningssammanhang.
+Kursen syftar till att ge en överblick över system och metoder
+för överföring av mätdata i test- och industrimiljöer, samt
+att presentera metoder att programmera ett sådant system på ett
+logiskt och strukturerat sätt.;christian.antfolk@bme.lth.se;2/;Valfria kurser - D;
+EEMN05;7,5;A;EMC, störningar och störningsbegränsning;Begreppet EMC – elektromagnetisk kompatibilitet – innebär
+att elektriska utrustningar ska kunna fungera tillsammans utan att
+störa eller bli störda av sin omgivning. Minimikraven på
+utrustningar regleras i lagstiftning. Kunskap inom detta område
+är idag nödvändig för alla som kommer att arbeta
+med konstruktion och uppbyggnad av elektronik och elektriska
+system . Kursen avser att att ge studenterna en grundläggande
+förståelse för uppkomsten av elektromagnetiska störningar, hur
+dessa påverkar elektroniska system samt hur de kan reduceras för
+att förhindra funktionsstörningar. Kursen ger också en översikt
+över de standarder och direktiv som elektronisk utrustning måste
+följa.;johan.nilsson@bme.lth.se;2/;Valfria kurser - D;
+INNA01;7,5;G1;Entreprenörskap - att bygga en skalbar start-up;Kursen syftar till att ge studenterna praktisk erfarenhet av
+tidiga faser i att starta en teknikbaserad start-up. Kursen bygger
+på principer från lean-startup och affärsmodellskanvasen. Genom
+praktisk erfarenhet, studentdrivna seminarier,
+inspirationsföreläsningar och studier av litteratur uppnås
+förståelse för affärsmodellskomponenterna i start-up-processen,
+samt förmåga att analysera och validera en idé eller uppfinning
+främst genom kundbaserad utveckling och experimenterande med
+minsta möjliga produktprototyper. Denna förståelse används för
+att utveckla en effektiv och skalbar affärsmodell.;lars.bengtsson@design.lth.se;2/;Valfria kurser - D;
+EITN70;7,5;A;Kanalkodning för tillförlitlig kommunikation;Kursens syfte är att ge en överblick över
+kanalkodningsmetoder för tillförlitlig kommunikation. Efter att
+ha tagit den här kursen bör du förstå de grundläggande
+principerna om block- och faltningskoder och hur man kan
+karakterisera deras prestanda, veta vilka olika konstruktioner som
+oftast används i digitala kommunikationssystem och veta hur deras
+kodning och avkodning kan genomföras i praktiken.;michael.lentmaier@eit.lth.se;2/;Valfria kurser - D;
+MIOF15;7,5;G2;Marknadsföring ;Kursen skall förmedla grundläggande kunskaper i
+marknadsföring och marknadsförståelse och då i synnerhet för
+det svenska men också det internationella industriella
+företagandet. ;ingela.elofsson@iml.lth.se;2/;Valfria kurser - D;
+EEMF05;7,5;G2;Medicinsk mätteknik;Syftet med kursen Medicinsk Mätteknik är att ge förståelse
+för de problem som är förknippade med den mättekniska
+processens användning i medicinsk miljö. Tillämpningar inom
+såväl hälso- och sjukvård som klinisk forskning behandlas.
+Kursen skall tillsammans med examensarbetet utgöra en grund för
+fortsatt arbete inom det medicintekniska området och för
+forskarutbildning.;magnus.cinthio@bme.lth.se;2/;Valfria kurser - D;
+EITN35;7,5;A;Projekt i elektro- och informationsteknik;Kursens syfte är att ge fördjupade kunskaper och färdigheter
+i något ämnesområde inom Elektro- och informationsteknik.;stefan.host@eit.lth.se;2/;Valfria kurser - D;

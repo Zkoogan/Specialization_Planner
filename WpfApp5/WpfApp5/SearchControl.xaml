@@ -1,0 +1,211 @@
+﻿<UserControl x:Class="WpfApp5.SearchControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp5"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:InverseBooleanConverter x:Key="inv"/>
+    </UserControl.Resources>
+    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth4">
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+            <materialDesign:Snackbar Panel.ZIndex="4" Grid.ColumnSpan="2" Grid.Row="1" MessageQueue="{Binding MessageQueue}"/>
+            <GroupBox BorderThickness="2" materialDesign:ShadowAssist.ShadowDepth="Depth4"  Header="Sökalternativ" Grid.RowSpan="2"
+      Style="{DynamicResource MaterialDesignCardGroupBox}"
+      Margin="16">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="9*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <materialDesign:PackIcon DockPanel.Dock="Left"
+              Kind="Search"
+              Height="32"
+              Width="32"
+              VerticalAlignment="Center" Grid.Column="0"/>
+                        <TextBlock Grid.Column="1"
+              Margin="8,0,0,0"
+              VerticalAlignment="Center"
+              Style="{StaticResource MaterialDesignSubtitle1TextBlock}"
+              Text="{Binding}" />
+                        <Label Grid.Column="2" ToolTip="För att söka på kurser så måste du skriva i textfälten. Du kan söka på Kurskoden, antal poäng på kursen, poäng typen samt vilken läsperiod kursen går" DockPanel.Dock="Right">
+                            <materialDesign:PackIcon Kind="Help" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+                        </Label>
+                    </Grid>
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                    <ItemsControl HorizontalContentAlignment="Stretch" Grid.Column="0" Grid.Row="0" ItemsSource="{Binding text_criteria, Mode=OneWay}">
+                        <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="2">
+                                <TextBox
+                                    Style="{StaticResource MaterialDesignOutlinedTextFieldTextBox}"
+                                    VerticalAlignment="Top"
+                                    AcceptsReturn="True"
+                                    TextWrapping="Wrap"
+                                    materialDesign:HintAssist.Hint="{Binding}"
+                                    Text="{Binding input}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                    <ItemsControl ItemsSource="{Binding list_criteria, Mode=OneWay}" Grid.Row="1">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Width="100" Margin="10" Text="{Binding search_representation}" FontSize="16" FontFamily="Segoe UI" />
+                                    <ComboBox ItemsSource="{Binding Values}" SelectedItem="{Binding Selected, Mode=TwoWay}" FontFamily="Segoe UI" FontSize="16" HorizontalAlignment="Stretch" MinWidth="60"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    <ItemsControl ItemsSource="{Binding Interval_criteria, Mode=OneWay}" Grid.Row="2">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Vertical">
+                                    <TextBlock Text="{Binding}" VerticalAlignment="Top" FontSize="16" Margin="8"/>
+                                    <StackPanel Orientation="Horizontal">
+                                        <StackPanel Orientation="Vertical">
+                                            <TextBlock Text="Från:" VerticalAlignment="Center" FontSize="16" />
+                                            <Slider x:Name="Lower" VerticalAlignment="Bottom"
+                                          Minimum="0"
+                                          Maximum="{Binding UpperBounds}"
+                                          Style="{StaticResource MaterialDesignDiscreteSlider}"
+                                          ToolTip="Minimalt antal poäng på kurser vi söker efter"
+                                          Value="{Binding LowerBounds}"
+                                          TickFrequency="0.5"
+                                          Width="150" />
+
+                                            <TextBox
+                                    Style="{StaticResource MaterialDesignOutlinedTextFieldTextBox}"
+                                    VerticalAlignment="Top"
+                                    AcceptsReturn="True"
+                                    TextWrapping="Wrap"
+                                    materialDesign:HintAssist.Hint="Minimalt antal högskolepoäng:"
+                                    Text="{Binding LowerBounds}" IsEnabled="False" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Vertical">
+
+                                            <TextBlock Text="Till:" VerticalAlignment="Center" FontSize="16"/>
+                                            <Slider x:Name="Upper" VerticalAlignment="Bottom"
+                                          Minimum="{Binding LowerBounds}"
+                                          Maximum="15"
+                                          Style="{StaticResource MaterialDesignDiscreteSlider}"
+                                          ToolTip="Maximalt antal poäng på kurser vi söker efter"
+                                          Value="{Binding UpperBounds}"
+                                                    TickFrequency="0.5"
+                                          Width="150" />
+                                            <TextBox
+                                    Style="{StaticResource MaterialDesignOutlinedTextFieldTextBox}"
+                                    VerticalAlignment="Top"
+                                    AcceptsReturn="True"
+                                    TextWrapping="Wrap"
+                                    materialDesign:HintAssist.Hint="Maximalt antal högskolepoäng:"
+                                    Text="{Binding UpperBounds}" IsEnabled="False" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    <Button Content="Sök" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="1" materialDesign:ShadowAssist.ShadowDepth="Depth4" Command="{Binding SearchButtonCommand}" FontFamily="Impact"/>
+
+
+
+            </Grid>
+        </GroupBox>
+        <GroupBox Name="Courses" BorderThickness="2" Header="Courses" Padding="3" Grid.ColumnSpan="1" Grid.RowSpan="2" Grid.Column="1" Grid.Row="0" materialDesign:ShadowAssist.ShadowDepth="Depth4" Style="{DynamicResource MaterialDesignCardGroupBox}"
+      Margin="16">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <StackPanel
+            Orientation="Horizontal">
+                        <materialDesign:PackIcon
+              Kind="Bookshelf"
+              Height="32"
+              Width="32"
+              VerticalAlignment="Center" />
+                        <TextBlock
+              Margin="8,0,0,0"
+              VerticalAlignment="Center"
+              Style="{StaticResource MaterialDesignSubtitle1TextBlock}"
+              Text="Kurser" />
+                    </StackPanel>
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="9*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                    <materialDesign:DialogHost HorizontalAlignment="Stretch"
+  VerticalAlignment="Center"
+  IsOpen="{Binding OpenDialog}"
+  OverlayBackground="{DynamicResource PrimaryHueDarkBrush}">
+                        <materialDesign:DialogHost.DialogContent>
+                            <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth4">
+                                <StackPanel MinWidth="300" MinHeight="200">
+                                <TextBlock Text="I vilken läsperiod tänkte du läsa kursen?:" FontSize="18" FontFamily="Impact" Margin="20"/>
+                                <ItemsControl ItemsSource="{Binding StudyPeriods}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" x:Name="PeriodList">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Button Content="{Binding}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Command="{Binding DataContext.ChooseStudyPeriodCommand, ElementName=PeriodList}" CommandParameter="{Binding}"/>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </StackPanel>
+                            </materialDesign:Card>
+                        </materialDesign:DialogHost.DialogContent>
+                   
+
+                    <ListView HorizontalContentAlignment="Stretch" VerticalContentAlignment="Top" Name="CourseList" ItemsSource="{Binding CourseList, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" SelectedItem="{Binding _selected}">
+                        <ListView.ItemTemplate>
+                        <DataTemplate>
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16" FontFamily="Impact">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="9*"/>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+                                            <Expander Header="{Binding}" Content="{Binding Beskrivning}"
+                                              IsHitTestVisible="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ListViewItem}, Path=IsSelected}"
+                                              IsExpanded="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ListViewItem}, Path=IsSelected}" FontFamily="Lucida Sans"/>
+
+                                        </Grid>
+                                    </materialDesign:Card>
+                                </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                    </materialDesign:DialogHost>
+                    <Button materialDesign:ShadowAssist.ShadowDepth="Depth4" Content="Lägg till vald kurs" HorizontalAlignment="Stretch" Command="{Binding AddButtonCommand}"  FontFamily="Impact" Grid.Row="1"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+    </materialDesign:Card>
+</UserControl>
