@@ -2,7 +2,7 @@
 
 ### The specialization Planner project is an application in which students from LTH can choose courses for their specialization and at the same time check that they fulfill the requirements of the courses they aim to take. The application provides statistics about how many credits the student has chosen within the specializations and whether this choice of courses is satisfactory to earn a degree and satisfactory to earn 100% benefits from CSN during the specialization.
 
-##TODO
+## --------------- TODO -----------------
 
 ### Add functionality to check if a student fulfills the requirements to enter a course
 
