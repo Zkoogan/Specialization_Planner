@@ -105,49 +105,49 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="HomeViewModel.cs" />
-    <Compile Include="IntervalCriteria.cs" />
-    <Compile Include="List_Criteria.cs" />
+    <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="Data Types\IntervalCriteria.cs" />
+    <Compile Include="Data Types\List_Criteria.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="LoadProfileCommand.cs" />
-    <Compile Include="OrdinalConverter.cs" />
-    <Compile Include="Profile.cs" />
-    <Compile Include="ProfileViewModel.cs" />
-    <Compile Include="Text_Criteria.cs" />
-    <Compile Include="InverseBooleanConverter.cs" />
-    <Compile Include="MainViewModel.cs" />
-    <Compile Include="ProfileControl.xaml.cs">
+    <Compile Include="DataConverters\OrdinalConverter.cs" />
+    <Compile Include="Data Types\Profile.cs" />
+    <Compile Include="ViewModels\ProfileViewModel.cs" />
+    <Compile Include="Data Types\Text_Criteria.cs" />
+    <Compile Include="DataConverters\InverseBooleanConverter.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="Views\ProfileControl.xaml.cs">
       <DependentUpon>ProfileControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SearchControl.xaml.cs">
+    <Compile Include="Views\SearchControl.xaml.cs">
       <DependentUpon>SearchControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SearchViewModel.cs" />
-    <Compile Include="HomeContol.xaml.cs">
+    <Compile Include="ViewModels\SearchViewModel.cs" />
+    <Compile Include="Views\HomeContol.xaml.cs">
       <DependentUpon>HomeContol.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Specialization.cs" />
-    <Compile Include="StatisticsControl.xaml.cs">
+    <Compile Include="Data Types\Specialization.cs" />
+    <Compile Include="Views\StatisticsControl.xaml.cs">
       <DependentUpon>StatisticsControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="StatisticsViewModel.cs" />
-    <Compile Include="TransitionSlides\MenuIntroSlide.xaml.cs">
+    <Compile Include="ViewModels\StatisticsViewModel.cs" />
+    <Compile Include="TransitionSlides\Slides\MenuIntroSlide.xaml.cs">
       <DependentUpon>MenuIntroSlide.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TransitionSlides\SearchCriteriaSlide.xaml.cs">
+    <Compile Include="TransitionSlides\Slides\SearchCriteriaSlide.xaml.cs">
       <DependentUpon>SearchCriteriaSlide.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TransitionSlides\SearchIntroSlide.xaml.cs">
+    <Compile Include="TransitionSlides\Slides\SearchIntroSlide.xaml.cs">
       <DependentUpon>SearchIntroSlide.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TransitionSlides\SearchResultsSlide.xaml.cs">
+    <Compile Include="TransitionSlides\Slides\SearchResultsSlide.xaml.cs">
       <DependentUpon>SearchResultsSlide.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TransitionSlides\WelcomeSlide.xaml.cs">
+    <Compile Include="TransitionSlides\Slides\WelcomeSlide.xaml.cs">
       <DependentUpon>WelcomeSlide.xaml</DependentUpon>
     </Compile>
     <Compile Include="TransitionSlides\WelcomeSlideViewModel.cs" />
-    <Page Include="MainWindow.xaml">
+    <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -155,45 +155,45 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Course.cs" />
-    <Compile Include="SearchQuery.cs" />
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="Data Types\Course.cs" />
+    <Compile Include="Data Access\SearchQuery.cs" />
+    <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="ProfileControl.xaml">
+    <Page Include="Views\ProfileControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SearchControl.xaml">
+    <Page Include="Views\SearchControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="HomeContol.xaml">
+    <Page Include="Views\HomeContol.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="StatisticsControl.xaml">
+    <Page Include="Views\StatisticsControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TransitionSlides\MenuIntroSlide.xaml">
+    <Page Include="TransitionSlides\Slides\MenuIntroSlide.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TransitionSlides\SearchCriteriaSlide.xaml">
+    <Page Include="TransitionSlides\Slides\SearchCriteriaSlide.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TransitionSlides\SearchIntroSlide.xaml">
+    <Page Include="TransitionSlides\Slides\SearchIntroSlide.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TransitionSlides\SearchResultsSlide.xaml">
+    <Page Include="TransitionSlides\Slides\SearchResultsSlide.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TransitionSlides\WelcomeSlide.xaml">
+    <Page Include="TransitionSlides\Slides\WelcomeSlide.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -240,53 +240,45 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="logo_lu.jpg" />
+    <Resource Include="Images\logo_lu.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="help_and_support.png" />
+    <Resource Include="Images\help_and_support.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data Access\" />
-    <Folder Include="Data Types\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Views\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Readme.MvvmlightSnippet.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="happy.jpg" />
+    <Resource Include="Images\happy.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="logo.jpg" />
+    <Resource Include="Images\logo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="unknown.jpg" />
+    <Resource Include="Images\red_x.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="red_x.png" />
+    <Resource Include="Images\green_c.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="green_c.jpg" />
+    <Resource Include="TransitionSlides\Images\OpenMenu.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="TransitionSlides\OpenMenu.png" />
+    <Resource Include="TransitionSlides\Images\CollapsedMenu.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="TransitionSlides\CollapsedMenu.jpg" />
+    <Resource Include="TransitionSlides\Images\searchcriteriamarked.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="TransitionSlides\searchcriteriamarked.png" />
+    <Resource Include="TransitionSlides\Images\searchcontrol.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="TransitionSlides\searchcontrol.png" />
+    <Resource Include="TransitionSlides\Images\searchresults.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="TransitionSlides\searchresults.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="thumbs_down.png" />
-    <Resource Include="thumbs_up.png" />
+    <Resource Include="Images\thumbs_down.png" />
+    <Resource Include="Images\thumbs_up.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.3.1.0-ci948\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.3.1.0-ci948\build\MaterialDesignThemes.targets')" />

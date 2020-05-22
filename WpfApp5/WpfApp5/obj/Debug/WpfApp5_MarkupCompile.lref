@@ -1,13 +1,11 @@
 ﻿
 FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\App.xaml;;
-FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\MainWindow.xaml;;
-FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\ProfileControl.xaml;;
-FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\SearchControl.xaml;;
-FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\HomeContol.xaml;;
-FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\StatisticsControl.xaml;;
-FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\TransitionSlides\MenuIntroSlide.xaml;;
-FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\TransitionSlides\SearchCriteriaSlide.xaml;;
-FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\TransitionSlides\SearchIntroSlide.xaml;;
-FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\TransitionSlides\SearchResultsSlide.xaml;;
-FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\TransitionSlides\WelcomeSlide.xaml;;
+FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\Views\MainWindow.xaml;;
+FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\Views\ProfileControl.xaml;;
+FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\Views\SearchControl.xaml;;
+FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\Views\HomeContol.xaml;;
+FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\Views\StatisticsControl.xaml;;
+FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\TransitionSlides\Slides\SearchCriteriaSlide.xaml;;
+FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\TransitionSlides\Slides\SearchIntroSlide.xaml;;
+FC:\Users\Andre\Desktop\Specialization_Planner\WpfApp5\WpfApp5\TransitionSlides\Slides\WelcomeSlide.xaml;;
 
