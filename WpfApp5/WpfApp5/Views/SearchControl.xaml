@@ -10,7 +10,7 @@
     <UserControl.Resources>
         <local:InverseBooleanConverter x:Key="inv"/>
     </UserControl.Resources>
-    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth4">
+    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth4" Background="#FFEFEFEF" >
         <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -189,7 +189,7 @@
                               HorizontalAlignment="Stretch" SelectedItem="{Binding _selected}">
                         <ListView.ItemTemplate>
                         <DataTemplate>
-                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16" FontFamily="Impact">
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16" FontFamily="Impact" Background="White">
                                         <Grid>
                                             <Grid.RowDefinitions>
                                                 <RowDefinition Height="9*"/>

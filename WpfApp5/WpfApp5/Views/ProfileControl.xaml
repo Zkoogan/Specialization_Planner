@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp5"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d">
-    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth4">
+    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth4" Background="#FFEFEFEF">
         <Grid>
         <Grid.RowDefinitions>
 
@@ -29,7 +29,7 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 
-                <Button Command="{Binding LoadProfileCommand}" Content="Ladda in ladok intyg" Grid.Column="0"  Grid.ColumnSpan="2" Grid.Row="2"/>
+                <Button Command="{Binding LoadProfileCommand}" Content="Ladda ladok intyg" Grid.Column="0"  Grid.ColumnSpan="2" Grid.Row="2"/>
                 
             </Grid>
 

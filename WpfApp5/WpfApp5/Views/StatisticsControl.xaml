@@ -12,7 +12,7 @@
 
 
     </UserControl.Resources>
-    <materialDesign:Card>
+    <materialDesign:Card Background="#FFEFEFEF">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1.5*"/>
