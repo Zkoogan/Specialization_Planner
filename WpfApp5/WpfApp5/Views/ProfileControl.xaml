@@ -29,7 +29,8 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 
-                <Button Command="{Binding LoadProfileCommand}" Content="Ladda ladok intyg" Grid.Column="0"  Grid.ColumnSpan="2" Grid.Row="2"/>
+                <Button Command="{Binding LoadProfileCommand}" Content="Ladda ladok intyg" Grid.Column="0"  Grid.ColumnSpan="2" Grid.Row="2" 
+                        ToolTip="Ladda in pdf fil med dina ladok betyg, kommer uppdatera grundkursernas tillstånd efter vilka kurser du avklarat"/>
                 
             </Grid>
 
@@ -49,7 +50,10 @@
                         <ItemsControl ItemsSource="{Binding YearOne}">
                             <ItemsControl.ItemTemplate>
                                 <DataTemplate>
-                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16">
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16" ToolTip="Klicka för ändra kursens tillstånd mellan avklarad/inte avklarad">
+                                        <materialDesign:Card.InputBindings>
+                                            <MouseBinding Gesture="LeftClick" CommandParameter="{Binding}" Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ItemsControl}},Path=DataContext.MouseCourseUpdateCommand}"/>
+                                        </materialDesign:Card.InputBindings>
                                         <Grid>
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="9*"/>
@@ -83,7 +87,10 @@
                         <ItemsControl ItemsSource="{Binding YearTwo}">
                             <ItemsControl.ItemTemplate>
                                 <DataTemplate>
-                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16">
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16" ToolTip="Klicka för ändra kursens tillstånd mellan avklarad/inte avklarad">
+                                        <materialDesign:Card.InputBindings>
+                                            <MouseBinding Gesture="LeftClick" CommandParameter="{Binding}" Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ItemsControl}},Path=DataContext.MouseCourseUpdateCommand}"/>
+                                        </materialDesign:Card.InputBindings>
                                         <Grid>
                                             <Grid.ColumnDefinitions>
                                                 <ColumnDefinition Width="9*"/>
@@ -117,8 +124,11 @@
                     <ItemsControl ItemsSource="{Binding YearThree}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
-                                <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16">
-                                    <Grid>
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16" ToolTip="Klicka för ändra kursens tillstånd mellan avklarad/inte avklarad">
+                                        <materialDesign:Card.InputBindings>
+                                            <MouseBinding Gesture="LeftClick" CommandParameter="{Binding}" Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ItemsControl}},Path=DataContext.MouseCourseUpdateCommand}"/>
+                                        </materialDesign:Card.InputBindings>
+                                        <Grid>
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="9*"/>
                                             <ColumnDefinition Width="*"/>
