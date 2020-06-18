@@ -174,7 +174,8 @@
                                 <ItemsControl ItemsSource="{Binding StudyPeriods}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" x:Name="PeriodList">
                                     <ItemsControl.ItemTemplate>
                                         <DataTemplate>
-                                            <Button Content="{Binding}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Command="{Binding DataContext.ChooseStudyPeriodCommand, ElementName=PeriodList}" CommandParameter="{Binding}"/>
+                                            <Button Content="{Binding}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" 
+                                                    Command="{Binding DataContext.ChooseStudyPeriodCommand, ElementName=PeriodList}" CommandParameter="{Binding}"/>
                                         </DataTemplate>
                                     </ItemsControl.ItemTemplate>
                                 </ItemsControl>
@@ -183,7 +184,9 @@
                         </materialDesign:DialogHost.DialogContent>
                    
 
-                    <ListView HorizontalContentAlignment="Stretch" VerticalContentAlignment="Top" Name="CourseList" ItemsSource="{Binding CourseList, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" SelectedItem="{Binding _selected}">
+                    <ListView HorizontalContentAlignment="Stretch" VerticalContentAlignment="Top" Name="CourseList" 
+                              ItemsSource="{Binding CourseList, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Stretch" 
+                              HorizontalAlignment="Stretch" SelectedItem="{Binding _selected}">
                         <ListView.ItemTemplate>
                         <DataTemplate>
                                     <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16" FontFamily="Impact">

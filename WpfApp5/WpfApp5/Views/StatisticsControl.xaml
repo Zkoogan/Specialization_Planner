@@ -10,44 +10,6 @@
     <UserControl.Resources>
         <local:OrdinalConverter x:Key="OrdinalConverter" />
 
-        <Style x:Shared="False"  x:Key="ToggleStyle" TargetType="ToggleButton">
-            <Style.Triggers>
-                <Trigger Property="IsChecked" Value="True">
-                    <Setter Property="Content">
-                        <Setter.Value>
-                            <Image Source="../Images/thumbs_up.png"/>
-                        </Setter.Value>
-                    </Setter>
-                </Trigger>
-                <Trigger Property="IsChecked" Value="False">
-                    <Setter Property="Content">
-                        <Setter.Value>
-                            <Image Source="../Images/thumbs_down.png"/>
-                        </Setter.Value>
-                    </Setter>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-
-
-        <Style x:Shared="False"  x:Key="ToggleStyle2" TargetType="ToggleButton">
-            <Style.Triggers>
-                <Trigger Property="IsChecked" Value="True">
-                    <Setter Property="Content">
-                        <Setter.Value>
-                            <Image Source="../Images/green_c.jpg"/>
-                        </Setter.Value>
-                    </Setter>
-                </Trigger>
-                <Trigger Property="IsChecked" Value="False">
-                    <Setter Property="Content">
-                        <Setter.Value>
-                            <Image Source="../Images/red_x.png"/>
-                        </Setter.Value>
-                    </Setter>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
 
     </UserControl.Resources>
     <materialDesign:Card>
@@ -277,7 +239,7 @@
                                                 </StackPanel>
                                             </StackPanel>
                                             <ToggleButton Height="30" Width="30" HorizontalAlignment="Right" VerticalAlignment="Bottom" IsChecked="{Binding ValidForGraduation}" IsHitTestVisible="False"
-                                                          Style="{StaticResource ToggleStyle2}"
+                                                          Style="{StaticResource ToggleStyle}"
                                                           ToolTip="Indikator för om du har tillräckligt med poäng för specialiseringen"
                                                           materialDesign:ShadowAssist.ShadowDepth="Depth3">
                                             </ToggleButton>

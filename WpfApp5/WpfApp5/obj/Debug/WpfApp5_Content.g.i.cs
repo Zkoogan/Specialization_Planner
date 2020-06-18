@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("thumbs_down.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("thumbs_up.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/calendar_1.png")]
 
 

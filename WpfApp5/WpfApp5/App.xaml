@@ -1,7 +1,48 @@
 <Application x:Class="WpfApp5.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:WpfApp5" StartupUri="Views/MainWindow.xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" d1p1:Ignorable="d" xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006">
-  <Application.Resources>
-    <ResourceDictionary>
-      <ResourceDictionary.MergedDictionaries>
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <Style x:Shared="False"  x:Key="ToggleStyle" TargetType="ToggleButton">
+                <Style.Triggers>
+                    <Trigger Property="IsChecked" Value="True">
+                        <Setter Property="Content">
+                            <Setter.Value>
+                                <Image Source="../Images/thumbs_up.png"/>
+                            </Setter.Value>
+                        </Setter>
+                    </Trigger>
+                    <Trigger Property="IsChecked" Value="False">
+                        <Setter Property="Content">
+                            <Setter.Value>
+                                <Image Source="../Images/thumbs_down.png"/>
+                            </Setter.Value>
+                        </Setter>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+
+            <Style x:Shared="False"  x:Key="ToggleStyle2" TargetType="ToggleButton">
+                <Style.Triggers>
+                    <Trigger Property="IsChecked" Value="True">
+                        <Setter Property="Content">
+                            <Setter.Value>
+                                <Image Source="../Images/green_c.jpg"/>
+                            </Setter.Value>
+                        </Setter>
+                    </Trigger>
+                    <Trigger Property="IsChecked" Value="False">
+                        <Setter Property="Content">
+                            <Setter.Value>
+                                <Image Source="../Images/red_x.png"/>
+                            </Setter.Value>
+                        </Setter>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+
+            <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml">
         </ResourceDictionary>
         <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml">

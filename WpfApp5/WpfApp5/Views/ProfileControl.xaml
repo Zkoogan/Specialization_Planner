@@ -28,44 +28,112 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
+                
                 <Button Command="{Binding LoadProfileCommand}" Content="Ladda in ladok intyg" Grid.Column="0"  Grid.ColumnSpan="2" Grid.Row="2"/>
+                
             </Grid>
 
             <materialDesign:Card Grid.Column="0" Grid.Row="2" Margin="10" materialDesign:ShadowAssist.ShadowDepth="Depth4">
-            <GroupBox Header="Årskurs 1" Style="{StaticResource MaterialDesignCardGroupBox}">
-            <ItemsControl ItemsSource="{Binding YearOne}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <CheckBox Content="{Binding}" IsChecked="{Binding Passed}"/>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </GroupBox>
+            <GroupBox Style="{StaticResource MaterialDesignCardGroupBox}">
+                    <GroupBox.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="25" Height="25">
+                                <Rectangle.Fill>
+                                    <ImageBrush ImageSource="../Images/calendar_1.png"/>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <TextBlock Text="Årskurs 1" Margin="4,3,0,0" FontSize="16"/>
+                        </StackPanel>
+                    </GroupBox.Header>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl ItemsSource="{Binding YearOne}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="9*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <TextBlock Text="{Binding}" FontFamily="Impact"/>
+                                            <ToggleButton Style="{StaticResource ToggleStyle}" IsChecked="{Binding Passed}" Grid.Column="1"/>
+
+                                        </Grid>
+                                    </materialDesign:Card>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </GroupBox>
                 </materialDesign:Card>
             <materialDesign:Card Grid.Column="1" Grid.Row="2" Margin="10" materialDesign:ShadowAssist.ShadowDepth="Depth4">
-                <GroupBox Header="Årskurs 2" Style="{StaticResource MaterialDesignCardGroupBox}">
-            <ItemsControl ItemsSource="{Binding YearTwo}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                                <StackPanel Orientation="Horizontal">
-                                    <CheckBox Content="{Binding}" IsChecked="{Binding Passed}"/>
-                                </StackPanel>
+                <GroupBox Style="{StaticResource MaterialDesignCardGroupBox}">
+                    <GroupBox.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="25" Height="25">
+                                <Rectangle.Fill>
+                                    <ImageBrush ImageSource="../Images/calendar_2.png"/>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <TextBlock Text="Årskurs 2" Margin="4,3,0,0" FontSize="16"/>
+                        </StackPanel>
+                    </GroupBox.Header>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl ItemsSource="{Binding YearTwo}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="9*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
 
-                            </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
-        </GroupBox>
+                                            <TextBlock Text="{Binding}" FontFamily="Impact"/>
+                                            <ToggleButton Style="{StaticResource ToggleStyle}" IsChecked="{Binding Passed}" Grid.Column="1"/>
+
+                                        </Grid>
+                                    </materialDesign:Card>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </GroupBox>
                 </materialDesign:Card>
             <materialDesign:Card Grid.Column="2" Grid.Row="2" Margin="10" materialDesign:ShadowAssist.ShadowDepth="Depth4">
-                <GroupBox Header="Årskurs 3" Style="{StaticResource MaterialDesignCardGroupBox}">
+                <GroupBox Style="{StaticResource MaterialDesignCardGroupBox}">
+                    <GroupBox.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="25" Height="25">
+                                <Rectangle.Fill>
+                                    <ImageBrush ImageSource="../Images/calendar_3.png"/>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <TextBlock Text="Årskurs 3" Margin="4,3,0,0" FontSize="16"/>
+                        </StackPanel>
+                    </GroupBox.Header>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
                     <ItemsControl ItemsSource="{Binding YearThree}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
-                                <CheckBox Content="{Binding}" IsChecked="{Binding Passed}"/>
+                                <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth3" Margin="4" FontSize="16">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="9*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <TextBlock Text="{Binding}" FontFamily="Impact"/>
+                                        <ToggleButton Style="{StaticResource ToggleStyle}" IsChecked="{Binding Passed}" Grid.Column="1"/>
+
+                                    </Grid>
+                                </materialDesign:Card>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
-                </ItemsControl>
-        </GroupBox>
+                    </ItemsControl>
+                    </ScrollViewer>
+                </GroupBox>
             </materialDesign:Card>
         </Grid>
     </materialDesign:Card>

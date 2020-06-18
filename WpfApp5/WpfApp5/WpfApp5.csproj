@@ -245,7 +245,6 @@
   <ItemGroup>
     <Resource Include="Images\help_and_support.png" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Resource Include="Readme.MvvmlightSnippet.txt" />
   </ItemGroup>
@@ -279,6 +278,13 @@
   <ItemGroup>
     <Resource Include="Images\thumbs_down.png" />
     <Resource Include="Images\thumbs_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\calendar_2.png" />
+    <Resource Include="Images\calendar_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\calendar_1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.3.1.0-ci948\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.3.1.0-ci948\build\MaterialDesignThemes.targets')" />
