@@ -44,15 +44,14 @@ namespace WpfApp5
         private void FetchCourses(ObservableCollection<Course> courses, int index)
         {
             using (IDbConnection connection = new SQLiteConnection(ConfigurationManager.ConnectionStrings["CourseDB"].ConnectionString))
-                {
+            {
                 string query = "SELECT * from base_course_info WHERE Specialisering LIKE '%Årskurs " + index + "%'";
 
-                    foreach (var v in connection.Query<Course>(query).ToList())
-                    {
-                        courses.Add(v);
-                    }
+                foreach (var v in connection.Query<Course>(query).ToList())
+                {
+                    courses.Add(v);
                 }
-            
+            }
         }
 
         private void ExecuteLoadProfile(object obj)
