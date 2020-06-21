@@ -157,7 +157,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Data Types\Course.cs" />
-    <Compile Include="Data Access\SearchQuery.cs" />
     <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
