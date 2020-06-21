@@ -1,12 +1,8 @@
-﻿using Dapper;
-using GalaSoft.MvvmLight.Command;
+﻿using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Configuration;
-using System.Data;
-using System.Data.SQLite;
 using System.Linq;
 using System.Windows.Input;
 using WpfApp5.ViewModels;
@@ -62,59 +58,53 @@ namespace WpfApp5
 
         private void fetchSpecializations()
         {
-            using (IDbConnection connection = new SQLiteConnection(ConfigurationManager.ConnectionStrings["CourseDB"].ConnectionString))
+            String query = "Select distinct Specialisering from Specialiseringar;";
+            foreach (string v in PerformDatabaseStringAccess(query))
             {
-                String query = "Select distinct Specialisering from Specialiseringar;";
-                foreach (string v in connection.Query<string>(query).ToList())
-                {
-                    SpecDict.Add(v, new Specialization(v));
-                }
+                SpecDict.Add(v, new Specialization(v));
             }
+            
         }
 
         private void UpdateCourseList(ObservableCollection<Course> action)
         {
 
+            if (action.Last().Poängtyp == "A")
+                NbrOfAdvancedPoints += Convert.ToDouble(action.Last().Antal_poäng);
+            NbrOfPoints += Convert.ToDouble(action.Last().Antal_poäng);
 
-            using (IDbConnection connection = new SQLiteConnection(ConfigurationManager.ConnectionStrings["CourseDB"].ConnectionString))
+            string[] separator = { "/" };
+            string[] strlist = action.Last().Läsperiod.Split(separator, 3, StringSplitOptions.RemoveEmptyEntries);
+
+            foreach(var v in strlist)
             {
-                if (action.Last().Poängtyp == "A")
-                    NbrOfAdvancedPoints += Convert.ToDouble(action.Last().Antal_poäng);
-                NbrOfPoints += Convert.ToDouble(action.Last().Antal_poäng);
-
-                string[] separator = { "/" };
-                string[] strlist = action.Last().Läsperiod.Split(separator, 3, StringSplitOptions.RemoveEmptyEntries);
-
-                foreach(var v in strlist)
-                {
-                    Läsperioder[Int16.Parse(v) - 1] += Convert.ToDouble(action.Last().Antal_poäng) / strlist.Count();
-                }
-
-
-                String query = "Select Distinct Specialisering from Specialiseringar Where Kurskod LIKE '%" + action.Last().Kurskod.Trim() + "%';";
-                foreach (string v in connection.Query<string>(query).ToList())
-                {
-                    SpecDict[v].Add(action.Last());
-                }
+                Läsperioder[Int16.Parse(v) - 1] += Convert.ToDouble(action.Last().Antal_poäng) / strlist.Count();
             }
+
+
+            String query = "Select Distinct Specialisering from Specialiseringar Where Kurskod LIKE '%" + action.Last().Kurskod.Trim() + "%';";
+            foreach (string v in PerformDatabaseStringAccess(query))
+            {
+                SpecDict[v].Add(action.Last());
+            }
+            
             CsnCalculation();
         }
 
         private void ExecuteRemove(Course obj)
         {
             Courses.Remove(obj);
-            using (IDbConnection connection = new SQLiteConnection(ConfigurationManager.ConnectionStrings["CourseDB"].ConnectionString))
+
+            if (obj.Poängtyp == "A")
+                NbrOfAdvancedPoints -= Convert.ToDouble(obj.Antal_poäng);
+            NbrOfPoints -= Convert.ToDouble(obj.Antal_poäng);
+            String query = "Select Distinct Specialisering from Specialiseringar Where Kurskod LIKE '%" + obj.Kurskod.Trim() + "%';";
+            foreach (string v in PerformDatabaseStringAccess(query))
             {
-                if (obj.Poängtyp == "A")
-                    NbrOfAdvancedPoints -= Convert.ToDouble(obj.Antal_poäng);
-                NbrOfPoints -= Convert.ToDouble(obj.Antal_poäng);
-                String query = "Select Distinct Specialisering from Specialiseringar Where Kurskod LIKE '%" + obj.Kurskod.Trim() + "%';";
-                foreach (string v in connection.Query<string>(query).ToList())
-                {
-                    SpecDict[v].Remove(obj);
-                }
-                Messenger.Default.Send<Course>(obj);
+                SpecDict[v].Remove(obj);
             }
+            Messenger.Default.Send<Course>(obj);
+            
 
             string[] separator = { "/" };
             string[] strlist = obj.Läsperiod.Split(separator, 3, StringSplitOptions.RemoveEmptyEntries);

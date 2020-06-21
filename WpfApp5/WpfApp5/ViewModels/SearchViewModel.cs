@@ -76,7 +76,7 @@ namespace WpfApp5
             using (IDbConnection connection = new SQLiteConnection(ConfigurationManager.ConnectionStrings["CourseDB"].ConnectionString))
             {
                 String query = "SELECT * FROM spec_course_info;";
-                foreach (var v in connection.Query<Course>(query, new DynamicParameters()).ToList())
+                foreach (var v in connection.Query<Course>(query).ToList())
                 {
                     CourseList.Add(v);
                 }
@@ -112,78 +112,75 @@ namespace WpfApp5
         private void ExecuteSearch(object parameter)
         {
             String QueryBaseAddition = "";
-            using (IDbConnection connection = new SQLiteConnection(ConfigurationManager.ConnectionStrings["CourseDB"].ConnectionString))
+            String dynamic_query_part = "";
+
+            foreach (var v in text_criteria)
             {
-
-                String dynamic_query_part = "";
-
-                foreach (var v in text_criteria)
+                if (v.isChecked)
                 {
-                    if (v.isChecked)
+                    if (dynamic_query_part == "")
                     {
-                        if (dynamic_query_part == "")
-                        {
-                            dynamic_query_part = dynamic_query_part + v.representation + " LIKE '%" + v.input + "%'";
-                        }
-                        else
-                        {
-                            dynamic_query_part = dynamic_query_part + " AND " + v.representation + " LIKE '%" + v.input + "%'";
-                        }
+                        dynamic_query_part = dynamic_query_part + v.representation + " LIKE '%" + v.input + "%'";
                     }
-                }
-
-                foreach (var v in list_criteria)
-                {
-                    if (v.isChecked)
+                    else
                     {
-                        bool used = false;
-                        if(v.representation == "Läsperiod" && v.Selected != "") {
-                            QueryBaseAddition += "JOIN Läsperioder USING (Kurskod) ";
-                            used = true;
-                        }
-                        if (v.representation == "Specialisering" && v.Selected != "")
-                        {
-                            QueryBaseAddition += "JOIN Specialiseringar USING (Kurskod) ";
-                            used = true;
-                        }
-                        if (dynamic_query_part == "" && used)
-                        {
-                            dynamic_query_part = dynamic_query_part + v.representation + " LIKE '%" + v.Selected + "%'";
-                        }
-                        else if (used || v.representation == "Poängtyp")
-                        {
-                            dynamic_query_part = dynamic_query_part + " AND " + v.representation + " LIKE '%" + v.Selected + "%'";
-                        }
-                    }
-                }
-
-                foreach (var v in Interval_criteria)
-                {
-                    if (v.isChecked)
-                    {
-                        String lower = v.LowerBounds.ToString().Replace(',', '.');
-                        String upper = v.UpperBounds.ToString().Replace(',', '.');
-
-                        if (dynamic_query_part == "")
-                        {
-                            dynamic_query_part = dynamic_query_part + v.representation + " >= " + lower + " AND " + v.representation + " <= " + upper;
-                        }
-                        else
-                        {
-                            dynamic_query_part = dynamic_query_part + " AND " + v.representation + " >= " + lower + " AND " + v.representation + " <= " + upper;
-                        }
-                    }
-                }
-                CourseList.Clear();
-                String query = "SELECT DISTINCT Kurskod, Antal_poäng, Poängtyp, Kursnamn, Beskrivning,  Representant_email FROM spec_course_info " + QueryBaseAddition + " WHERE " + dynamic_query_part + ";";
-                if (dynamic_query_part != "")
-                {
-                    foreach (var v in connection.Query<Course>(query).ToList())
-                     {
-                        CourseList.Add(v);
+                        dynamic_query_part = dynamic_query_part + " AND " + v.representation + " LIKE '%" + v.input + "%'";
                     }
                 }
             }
+
+            foreach (var v in list_criteria)
+            {
+                if (v.isChecked)
+                {
+                    bool used = false;
+                    if(v.representation == "Läsperiod" && v.Selected != "") {
+                        QueryBaseAddition += "JOIN Läsperioder USING (Kurskod) ";
+                        used = true;
+                    }
+                    if (v.representation == "Specialisering" && v.Selected != "")
+                    {
+                        QueryBaseAddition += "JOIN Specialiseringar USING (Kurskod) ";
+                        used = true;
+                    }
+                    if (dynamic_query_part == "" && used)
+                    {
+                        dynamic_query_part = dynamic_query_part + v.representation + " LIKE '%" + v.Selected + "%'";
+                    }
+                    else if (used || v.representation == "Poängtyp")
+                    {
+                        dynamic_query_part = dynamic_query_part + " AND " + v.representation + " LIKE '%" + v.Selected + "%'";
+                    }
+                }
+            }
+
+            foreach (var v in Interval_criteria)
+            {
+                if (v.isChecked)
+                {
+                    String lower = v.LowerBounds.ToString().Replace(',', '.');
+                    String upper = v.UpperBounds.ToString().Replace(',', '.');
+
+                    if (dynamic_query_part == "")
+                    {
+                        dynamic_query_part = dynamic_query_part + v.representation + " >= " + lower + " AND " + v.representation + " <= " + upper;
+                    }
+                    else
+                    {
+                        dynamic_query_part = dynamic_query_part + " AND " + v.representation + " >= " + lower + " AND " + v.representation + " <= " + upper;
+                    }
+                }
+            }
+            CourseList.Clear();
+            String query = "SELECT DISTINCT Kurskod, Antal_poäng, Poängtyp, Kursnamn, Beskrivning,  Representant_email FROM spec_course_info " + QueryBaseAddition + " WHERE " + dynamic_query_part + ";";
+            if (dynamic_query_part != "")
+            {
+                foreach (var v in PerformDatabaseCourseAccess(query))
+                    {
+                    CourseList.Add(v);
+                }
+            }
+            
 
         }
         private Boolean CanExecuteSearch(object parameter)
@@ -202,14 +199,13 @@ namespace WpfApp5
             {
                 if (!Chosen.Contains(_selected))
                 {
-                    using (IDbConnection connection = new SQLiteConnection(ConfigurationManager.ConnectionStrings["CourseDB"].ConnectionString))
+                    
+                    String query = "Select distinct Läsperiod from Läsperioder Where Kurskod LIKE '%" + _selected.Kurskod.Trim() + "%';";
+                    foreach (string v in PerformDatabaseStringAccess(query))
                     {
-                        String query = "Select distinct Läsperiod from Läsperioder Where Kurskod LIKE '%" + _selected.Kurskod.Trim() + "%';";
-                        foreach (string v in connection.Query<string>(query).ToList())
-                        {
-                            StudyPeriods.Add(v);
-                        }
+                        StudyPeriods.Add(v);
                     }
+                    
 
                     if(StudyPeriods.Count == 1) {
                         Chosen.Add(_selected.returnNewCourse(StudyPeriods.First()));

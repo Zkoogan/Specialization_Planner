@@ -1,10 +1,5 @@
-﻿using Dapper;
-using System;
+﻿using System;
 using System.Collections.ObjectModel;
-using System.Configuration;
-using System.Data;
-using System.Data.SQLite;
-using System.Linq;
 using System.Text;
 using iTextSharp.text.pdf;
 using iTextSharp.text.pdf.parser;
@@ -50,14 +45,11 @@ namespace WpfApp5
 
         private void FetchCourses(ObservableCollection<Course> courses, int index)
         {
-            using (IDbConnection connection = new SQLiteConnection(ConfigurationManager.ConnectionStrings["CourseDB"].ConnectionString))
-            {
-                string query = "SELECT * from base_course_info WHERE Specialisering LIKE '%Årskurs " + index + "%'";
+            string query = "SELECT * from base_course_info WHERE Specialisering LIKE '%Årskurs " + index + "%'";
 
-                foreach (var v in connection.Query<Course>(query).ToList())
-                {
-                    courses.Add(v);
-                }
+            foreach (var v in PerformDatabaseCourseAccess(query))
+            {
+                courses.Add(v);
             }
         }
 
