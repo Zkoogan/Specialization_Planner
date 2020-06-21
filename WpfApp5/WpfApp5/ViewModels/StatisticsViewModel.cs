@@ -4,21 +4,19 @@ using GalaSoft.MvvmLight.Messaging;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Configuration;
 using System.Data;
 using System.Data.SQLite;
 using System.Linq;
 using System.Windows.Input;
+using WpfApp5.ViewModels;
 
 namespace WpfApp5
 {
-    public class StatisticsViewModel : INotifyPropertyChanged
+    public class StatisticsViewModel : BaseViewModel
     {
 
         Dictionary<string, Specialization> SpecDict;
-
-        public event PropertyChangedEventHandler PropertyChanged;
 
 
         private double _NbrOfPoints;
@@ -48,15 +46,6 @@ namespace WpfApp5
             _setup();
         }
 
-
-
-        private void OnPropertyChanged(string parameter)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(parameter));
-            }
-        }
 
 
         private void _setup()

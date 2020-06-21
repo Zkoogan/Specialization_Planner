@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using WpfApp5.ViewModels;
 
 namespace WpfApp5
 {
-    public class HomeViewModel
+    public class HomeViewModel : BaseViewModel
     {
         public HomeViewModel()
         {

@@ -2,14 +2,14 @@
 using GalaSoft.MvvmLight.Messaging;
 using System;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
+using WpfApp5.ViewModels;
 
 namespace WpfApp5
 {
-    class MainViewModel : INotifyPropertyChanged
+    class MainViewModel : BaseViewModel
     {
         public ICommand SearchButtonCommand { get; set; }
 
@@ -84,17 +84,6 @@ namespace WpfApp5
             pvm = new ProfileViewModel();
             selectedViewModel = hvm;
             NumCourses = "0";
-        }
-
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        private void OnPropertyChanged(string parameter)
-        {
-            if(PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(parameter));
-            }
         }
 
         private void ExecuteNavigateHome(object parameter)

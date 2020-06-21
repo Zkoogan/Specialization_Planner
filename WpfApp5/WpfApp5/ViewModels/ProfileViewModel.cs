@@ -12,19 +12,16 @@ using Microsoft.Win32;
 using System.Text.RegularExpressions;
 using System.IO;
 using GalaSoft.MvvmLight.Command;
+using WpfApp5.ViewModels;
 
 namespace WpfApp5
 {
-    class ProfileViewModel
+    class ProfileViewModel : BaseViewModel
     {
         public ObservableCollection<Course> YearOne { get; set; }
         public ObservableCollection<Course> YearTwo { get; set; }
         public ObservableCollection<Course> YearThree { get; set; }
-
         public RelayCommand<Course> MouseCourseUpdateCommand { get; private set; }
-
-        public string Name { get; set; }
-        public string idNbr { get; set; }
         public Command LoadProfileCommand { get; set; }
 
         public ProfileViewModel()
@@ -35,8 +32,6 @@ namespace WpfApp5
             FetchCourses(YearOne, 1);
             FetchCourses(YearTwo, 2);
             FetchCourses(YearThree, 3);
-            Name = "Namn: ";
-            idNbr = "Personnummer: ";
             LoadProfileCommand = new Command(ExecuteLoadProfile, CanExecuteLoadProfile);
 
             MouseCourseUpdateCommand = new RelayCommand<Course>(this.MouseUpdatePassedState);

@@ -3,7 +3,6 @@ using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 using MaterialDesignThemes.Wpf;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Configuration;
@@ -12,10 +11,11 @@ using System.Data.SQLite;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
+using WpfApp5.ViewModels;
 
 namespace WpfApp5
 {
-    public class SearchViewModel : INotifyPropertyChanged
+    public class SearchViewModel : BaseViewModel
     {
         public ICommand SearchCommand { get; set; }
         public ObservableCollection<Text_Criteria> text_criteria { get; set; }
@@ -31,9 +31,6 @@ namespace WpfApp5
         public ObservableCollection<string> StudyPeriods { get; set; }
         public bool OpenDialog { get { return _OpenDialog; } set { _OpenDialog = value; OnPropertyChanged("OpenDialog"); } }
         public bool _OpenDialog { get; set; }
-
-
-        public event PropertyChangedEventHandler PropertyChanged;
 
         public Course _selected
         {
@@ -192,14 +189,6 @@ namespace WpfApp5
         private Boolean CanExecuteSearch(object parameter)
         {
             return true;
-        }
-
-        private void OnPropertyChanged(string parameter)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(parameter));
-            }
         }
 
         private bool CanExecuteAdd(object obj)
