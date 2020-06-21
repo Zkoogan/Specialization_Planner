@@ -40,5 +40,16 @@ namespace WpfApp5.ViewModels
             }
             return samples;
         }
+
+        protected List<dynamic> PerformDatabaseDapperRowAccess(string query)
+        {
+            List<dynamic> samples;
+
+            using (IDbConnection connection = new SQLiteConnection(ConfigurationManager.ConnectionStrings["CourseDB"].ConnectionString))
+            {
+                samples = connection.Query(query).ToList();
+            }
+            return samples;
+        }
     }
 }

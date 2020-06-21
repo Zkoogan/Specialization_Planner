@@ -1,13 +1,8 @@
-﻿using Dapper;
-using GalaSoft.MvvmLight.Command;
+﻿using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 using MaterialDesignThemes.Wpf;
 using System;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Configuration;
-using System.Data;
-using System.Data.SQLite;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
@@ -73,40 +68,37 @@ namespace WpfApp5
 
         private void _FetchSpecCourse()
         {
-            using (IDbConnection connection = new SQLiteConnection(ConfigurationManager.ConnectionStrings["CourseDB"].ConnectionString))
+            String query = "SELECT * FROM spec_course_info;";
+            foreach (var v in PerformDatabaseCourseAccess(query))
             {
-                String query = "SELECT * FROM spec_course_info;";
-                foreach (var v in connection.Query<Course>(query).ToList())
-                {
-                    CourseList.Add(v);
-                }
+                CourseList.Add(v);
             }
+            
         }
 
         private void FetchCriteria()
         {
-            using (IDbConnection connection = new SQLiteConnection(ConfigurationManager.ConnectionStrings["CourseDB"].ConnectionString))
-            {
-                String query = "SELECT * FROM search_criteria";
 
-                foreach (var v in connection.Query(query).ToList())
+            String query = "SELECT * FROM search_criteria";
+
+            foreach (var v in PerformDatabaseDapperRowAccess(query))
+            {
+                if (v.type == 0)
+                    text_criteria.Add(new Text_Criteria(v.name));
+                else if (v.type == 1)
                 {
-                    if (v.type == 0)
-                        text_criteria.Add(new Text_Criteria(v.name));
-                    else if (v.type == 1)
+                    List_Criteria temp = new List_Criteria(v.name);
+                    String list_query = "SELECT value FROM search_criteria_options WHERE name == '" + v.name + "'";
+                    foreach (var t in PerformDatabaseDapperRowAccess(list_query))
                     {
-                        List_Criteria temp = new List_Criteria(v.name);
-                        String list_query = "SELECT value FROM search_criteria_options WHERE name == '" + v.name + "'";
-                        foreach (var t in connection.Query(list_query).ToList())
-                        {
-                            temp.Values.Add(t.value);
-                        }
-                        list_criteria.Add(temp);
+                        temp.Values.Add(t.value);
                     }
-                    else
-                        Interval_criteria.Add(new IntervalCriteria(v.name));
+                    list_criteria.Add(temp);
                 }
+                else
+                    Interval_criteria.Add(new IntervalCriteria(v.name));
             }
+            
         }
 
         private void ExecuteSearch(object parameter)
